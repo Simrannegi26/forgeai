@@ -1,0 +1,9 @@
+pydantic
+pyyaml
+pypdf
+python-docx
+pandas
+rank-bm25
+numpy
+requests
+rich
