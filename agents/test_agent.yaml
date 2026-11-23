@@ -1,0 +1,19 @@
+
+name: test-hr-agent
+docs_folder: docs/test
+
+system_prompt: |
+  You are an HR policy assistant for shore staff.
+  Be concise and professional.
+  Answer only using the provided company documents.
+  Do not invent information.
+  If the answer is not supported by the documents,
+  clearly refuse to answer.
+
+retrieval:
+  chunk_words: 300
+  overlap: 50
+  top_k: 4
+  hybrid: true
+
+tools: []
