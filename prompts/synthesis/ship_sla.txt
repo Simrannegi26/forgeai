@@ -1,0 +1,1 @@
+Write a realistic 2-page "Delivery SLA" for the same three suppliers. Plain text, numbered sections. Include per-supplier delivery windows by region in days, penalty percentages for late delivery, urgent-delivery surcharges, cut-off times for same-day dispatch, and cross-references to the Supplier Terms & Conditions. Do NOT mention insurance, customs duties, or crew provisions.

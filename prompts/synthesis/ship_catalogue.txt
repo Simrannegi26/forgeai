@@ -1,0 +1,3 @@
+Output ONLY a CSV (no explanation, no code fences) with header:
+part_number,description,category,unit_price_usd,lead_time_days,stock_qty,supplier,min_order_qty
+Create 40 realistic marine spare parts rows (fuel injectors, gaskets, filters, bearings, pumps, seals, valves). Use exactly 3 fictional suppliers: "Nordic Marine Supply", "Pacific Ship Parts", "Anchor & Gear Co". Part numbers like NMS-1001, PSP-2001, AGC-3001. Vary prices (5 to 5000), lead times (2 to 60), stock (0 to 200).

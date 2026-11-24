@@ -1,0 +1,9 @@
+A requester wants an AI assistant built. Read their brief and the document profile, then ask AT MOST 5 short clarifying questions that would change how the assistant is built (audience, tone, boundaries, must-refuse topics, level of detail). Do not ask anything the brief or documents already answer.
+
+BRIEF:
+{{brief}}
+
+DOCUMENTS:
+{{profile}}
+
+Reply with ONLY JSON: {"questions": ["...", "..."]}

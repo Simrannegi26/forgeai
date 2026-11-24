@@ -1,0 +1,18 @@
+Write a requirements document for an AI assistant, based on the brief, the documents and the clarifying Q&A.
+
+BRIEF:
+{{brief}}
+
+DOCUMENTS:
+{{profile}}
+
+Q&A:
+{{qa}}
+
+Reply with ONLY JSON with these keys:
+"agent_name": short lowercase name (2-4 words),
+"scope": one or two sentences on what the assistant covers,
+"audience": who uses it,
+"tone": the tone to use,
+"must_answer": list of topics it must answer,
+"must_refuse": list of topics it must refuse (things clearly outside the documents' domain or risky).

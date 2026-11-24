@@ -1,0 +1,145 @@
+MARINER SHIPPING LTD.
+DELIVERY SERVICE LEVEL AGREEMENT
+Applicable to: Marine Spare Parts Suppliers
+Document ID: PROC-SLA-006
+Version: 1.0
+
+1. PURPOSE AND SCOPE
+
+1.1 This Delivery Service Level Agreement (SLA) defines the delivery performance requirements for Nordic Marine Supply, Pacific Ship Parts, and Anchor & Gear Co.
+
+1.2 It applies to standard and approved urgent spare-parts orders placed by Mariner Shipping Ltd.
+
+1.3 The SLA covers order processing, dispatch, regional delivery windows, shipment tracking, delay notification, and service penalties.
+
+1.4 Delivery timelines are measured in calendar days unless explicitly stated otherwise.
+
+2. STANDARD DELIVERY WINDOWS
+
+2.1 Nordic Marine Supply must meet the following standard delivery windows:
+
+a. Northern Europe: 5–10 calendar days.
+b. Southern Europe: 8–14 calendar days.
+c. Asia-Pacific: 18–28 calendar days.
+d. Middle East: 12–20 calendar days.
+
+2.2 Pacific Ship Parts must meet the following standard delivery windows:
+
+a. Northern Europe: 18–28 calendar days.
+b. Southern Europe: 16–25 calendar days.
+c. Asia-Pacific: 5–12 calendar days.
+d. Middle East: 12–20 calendar days.
+
+2.3 Anchor & Gear Co. must meet the following standard delivery windows:
+
+a. Northern Europe: 20–30 calendar days.
+b. Southern Europe: 18–28 calendar days.
+c. Asia-Pacific: 15–25 calendar days.
+d. Middle East: 8–15 calendar days.
+
+2.4 Delivery windows commence after written purchase-order acceptance and confirmation that the ordered items are available or scheduled for production.
+
+2.5 If an item is not available within the stated window, the supplier must provide a revised delivery estimate before accepting the order.
+
+3. ORDER PROCESSING AND DISPATCH
+
+3.1 All suppliers must acknowledge standard purchase orders within 2 working days.
+
+3.2 Suppliers must provide order confirmation containing the purchase order reference, accepted quantities, expected dispatch date, and estimated arrival date.
+
+3.3 The standard same-day dispatch cut-off time is 12:00 noon in the supplier's local time zone for confirmed orders with available stock.
+
+3.4 Orders accepted after the cut-off time will normally be processed for dispatch on the next working day.
+
+3.5 Same-day dispatch is subject to stock availability, payment or credit approval, technical verification, and carrier capacity.
+
+3.6 Suppliers must provide tracking details within 1 working day after dispatch.
+
+4. LATE DELIVERY PENALTIES
+
+4.1 Delivery performance will be measured against the confirmed delivery date recorded in the accepted purchase order.
+
+4.2 For delays attributable to the supplier, a penalty of 1% of the value of the delayed goods will apply for each completed 7-calendar-day period of delay.
+
+4.3 The total standard late-delivery penalty will not exceed 10% of the value of the delayed goods.
+
+4.4 Where a supplier anticipates a delay, it must notify Mariner Shipping Ltd. within 1 working day of identifying the issue.
+
+4.5 The notification must include the affected part numbers, reason for delay, revised delivery date, and proposed recovery plan.
+
+4.6 Penalties will not apply to delays caused by documented events outside the supplier's reasonable control, provided that the supplier promptly notifies the company and takes reasonable steps to minimise the impact.
+
+4.7 Any disputed penalty must be referred to the Procurement Manager within 10 working days of notification.
+
+5. URGENT DELIVERY SERVICES
+
+5.1 Urgent delivery may be requested where a component is necessary to prevent significant vessel downtime or an operational interruption.
+
+5.2 Urgent requests must identify the vessel or project, delivery location, required arrival date, and operational justification.
+
+5.3 Nordic Marine Supply may charge an urgent-delivery surcharge of 15% of the affected order value.
+
+5.4 Pacific Ship Parts may charge an urgent-delivery surcharge of 12% of the affected order value.
+
+5.5 Anchor & Gear Co. may charge an urgent-delivery surcharge of 18% of the affected order value.
+
+5.6 All urgent-delivery surcharges must be quoted and approved in writing before dispatch.
+
+5.7 Urgent orders are subject to stock availability and carrier capacity. A supplier must not guarantee an urgent delivery date without written confirmation.
+
+5.8 The Procurement Manager may approve urgent delivery surcharges up to USD 1,000. Higher surcharges require approval from the Chief Operating Officer.
+
+6. DELIVERY CONFIRMATION AND ACCEPTANCE
+
+6.1 Each shipment must be accompanied by a packing list identifying the purchase order, part numbers, descriptions, and delivered quantities.
+
+6.2 Delivery is considered complete when the goods arrive at the agreed delivery location and are recorded by an authorised Mariner Shipping Ltd. representative.
+
+6.3 The receiving team should inspect delivered goods within 2 working days.
+
+6.4 Visible damage, incorrect quantities, or incorrect parts must be reported to the supplier within 3 working days of receipt.
+
+6.5 Delivery confirmation does not waive the company's right to raise a valid warranty or concealed-defect claim.
+
+7. PERFORMANCE MONITORING
+
+7.1 Supplier delivery performance will be reviewed monthly.
+
+7.2 Performance measures include on-time delivery percentage, order acknowledgement time, dispatch compliance, shipment documentation accuracy, and frequency of delivery discrepancies.
+
+7.3 The target on-time delivery rate is at least 95% for each supplier.
+
+7.4 Suppliers falling below the target for 2 consecutive months must submit a corrective action plan within 10 working days.
+
+7.5 Repeated delivery failures may result in reduced order allocation or suspension from the approved supplier list.
+
+8. RELATIONSHIP WITH SUPPLIER TERMS
+
+8.1 This SLA must be read together with the Supplier Terms & Conditions.
+
+8.2 Payment schedules, early-payment discounts, minimum order values, returns, and warranty obligations are governed by the Supplier Terms & Conditions, Sections 3 through 5.
+
+8.3 The urgent-order exception and purchase authorisation requirements in Section 6 of the Supplier Terms & Conditions also apply to urgent deliveries.
+
+8.4 If a delivery commitment conflicts with a commercial term, the parties must resolve the conflict in writing before the affected order is processed.
+
+9. ESCALATION AND DISPUTES
+
+9.1 Operational delivery concerns should first be raised with the supplier's designated logistics contact.
+
+9.2 Unresolved delivery issues must be escalated to the Mariner Shipping Ltd. Procurement Manager.
+
+9.3 Critical delays affecting vessel operations must be escalated immediately to the Chief Operating Officer.
+
+9.4 Both parties should maintain records of delivery confirmations, delay notices, and corrective actions.
+
+10. REVIEW AND ACCEPTANCE
+
+10.1 This SLA will be reviewed annually and whenever material shipping or supply-chain requirements change.
+
+10.2 Amendments must be agreed in writing by authorised representatives of Mariner Shipping Ltd. and the relevant supplier.
+
+10.3 Each supplier is expected to acknowledge and comply with the applicable delivery commitments when accepting purchase orders.
+
+END OF DOCUMENT
+Mariner Shipping Ltd. | PROC-SLA-006

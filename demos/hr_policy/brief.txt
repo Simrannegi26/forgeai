@@ -1,0 +1,2 @@
+
+I need an assistant that answers HR policy questions (leave, travel and expenses, code of conduct) for shore staff of Mariner Shipping Ltd. It should help with entitlements, limits and deadlines, and point to the relevant policy.

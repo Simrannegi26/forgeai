@@ -110,13 +110,29 @@ def build_chunks(folder, chunk_words=300, overlap=50):
             )
 
     return results
-def make_profile(chunks: list[Chunk]) -> str:
-    """Short description of the document folder: filename, size, first 60 words."""
-    by_doc: dict[str, list[Chunk]] = {}
+
+def make_profile(chunks):
+    by_doc = {}
+
     for c in chunks:
-        by_doc.setdefault(c.doc, []).append(c)
+        if isinstance(c, dict):
+            doc = c.get("source", "Unknown document")
+            page = c.get("page", 0)
+            content = c.get("text", "")
+        else:
+            doc = c.doc
+            page = c.page
+            content = c.text
+
+        by_doc.setdefault(doc, []).append((page, content))
+
     lines = []
-    for doc, cs in by_doc.items():
-        sample = " ".join(cs[0].text.split()[:60])
-        lines.append(f"- {doc} ({len(cs)} chunks): {sample} ...")
+    for doc, items in sorted(by_doc.items()):
+        lines.append(f"Document: {doc}")
+        lines.append(f"Pages/chunks: {len(items)}")
+
+        sample = " ".join(text for _, text in items[:2])
+        lines.append(f"Content sample: {sample[:1200]}")
+        lines.append("")
+
     return "\n".join(lines)

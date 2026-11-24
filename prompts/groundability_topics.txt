@@ -1,0 +1,6 @@
+List the distinct topics or capabilities this brief expects the assistant to know about. Use short noun phrases (2-5 words), at most 8.
+
+BRIEF:
+{{brief}}
+
+Reply with ONLY JSON: {"topics": ["...", "..."]}

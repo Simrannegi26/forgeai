@@ -1,0 +1,6 @@
+Do the PASSAGES below contain concrete information that can be used to answer questions about the topic "{{topic}}"? Answer "yes" only if the passages explicitly discuss it. Otherwise answer "no".
+
+PASSAGES:
+{{passages}}
+
+Reply with ONLY JSON: {"answer": "yes"} or {"answer": "no"}

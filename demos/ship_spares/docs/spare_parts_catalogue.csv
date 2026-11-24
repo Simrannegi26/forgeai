@@ -1,0 +1,42 @@
+
+part_number,description,category,unit_price_usd,lead_time_days,stock_qty,supplier,min_order_qty
+NMS-1001,Marine diesel fuel injector,Engine Components,485.00,14,35,Nordic Marine Supply,2
+NMS-1002,High pressure fuel pump,Engine Components,1250.00,28,12,Nordic Marine Supply,1
+NMS-1003,Diesel engine cylinder head gasket,Gaskets,85.00,7,80,Nordic Marine Supply,5
+NMS-1004,Engine oil filter cartridge,Filters,32.50,5,150,Nordic Marine Supply,10
+NMS-1005,Marine air filter assembly,Filters,145.00,12,45,Nordic Marine Supply,2
+NMS-1006,Shaft bearing assembly,Bearings,890.00,35,8,Nordic Marine Supply,1
+NMS-1007,Mechanical pump shaft seal,Seals,68.00,9,65,Nordic Marine Supply,4
+NMS-1008,Marine cooling water pump,Pumps,1750.00,42,6,Nordic Marine Supply,1
+NMS-1009,Stainless steel pressure valve,Valves,275.00,18,22,Nordic Marine Supply,2
+NMS-1010,Turbocharger gasket set,Gaskets,115.00,11,50,Nordic Marine Supply,3
+NMS-1011,Fuel injector nozzle assembly,Engine Components,220.00,16,40,Nordic Marine Supply,2
+NMS-1012,Hydraulic system oil filter,Filters,54.00,8,95,Nordic Marine Supply,5
+NMS-1013,Propeller shaft roller bearing,Bearings,1450.00,45,4,Nordic Marine Supply,1
+NMS-1014,Hydraulic cylinder seal kit,Seals,95.00,13,38,Nordic Marine Supply,2
+PSP-2001,Marine engine piston ring set,Engine Components,310.00,20,28,Pacific Ship Parts,2
+PSP-2002,Freshwater circulation pump,Pumps,680.00,25,15,Pacific Ship Parts,1
+PSP-2003,Exhaust manifold gasket,Gaskets,42.00,6,120,Pacific Ship Parts,10
+PSP-2004,Fuel separator filter,Filters,76.00,9,70,Pacific Ship Parts,5
+PSP-2005,Main engine thrust bearing,Bearings,2250.00,55,3,Pacific Ship Parts,1
+PSP-2006,Hydraulic pressure relief valve,Valves,395.00,21,18,Pacific Ship Parts,1
+PSP-2007,Marine water pump mechanical seal,Seals,125.00,14,42,Pacific Ship Parts,2
+PSP-2008,Emergency bilge pump,Pumps,980.00,30,9,Pacific Ship Parts,1
+PSP-2009,Diesel fuel injector complete,Engine Components,575.00,24,16,Pacific Ship Parts,1
+PSP-2010,Turbocharger air intake filter,Filters,110.00,12,55,Pacific Ship Parts,3
+PSP-2011,Engine crankshaft bearing,Bearings,1780.00,48,5,Pacific Ship Parts,1
+PSP-2012,Marine flange gasket kit,Gaskets,65.00,8,90,Pacific Ship Parts,5
+PSP-2013,Hydraulic piston seal set,Seals,88.00,10,60,Pacific Ship Parts,3
+AGC-3001,Heavy duty marine fuel injector,Engine Components,720.00,32,14,Anchor & Gear Co,1
+AGC-3002,High capacity ballast pump,Pumps,3200.00,60,2,Anchor & Gear Co,1
+AGC-3003,Main engine valve assembly,Valves,560.00,26,19,Anchor & Gear Co,1
+AGC-3004,Marine gearbox bearing set,Bearings,1950.00,50,4,Anchor & Gear Co,1
+AGC-3005,Oil cooler gasket set,Gaskets,95.00,15,48,Anchor & Gear Co,3
+AGC-3006,Heavy duty fuel filter,Filters,185.00,17,32,Anchor & Gear Co,2
+AGC-3007,Hydraulic pump shaft seal,Seals,145.00,19,25,Anchor & Gear Co,2
+AGC-3008,Emergency fire pump,Pumps,2850.00,58,3,Anchor & Gear Co,1
+AGC-3009,Marine exhaust control valve,Valves,890.00,34,7,Anchor & Gear Co,1
+AGC-3010,Engine cylinder liner seal,Seals,72.00,12,75,Anchor & Gear Co,5
+AGC-3011,Marine diesel injection pump,Engine Components,4250.00,56,2,Anchor & Gear Co,1
+AGC-3012,Hydraulic return line filter,Filters,48.00,7,110,Anchor & Gear Co,5
+AGC-3013,Propeller shaft thrust bearing,Bearings,4980.00,60,1,Anchor & Gear Co,1

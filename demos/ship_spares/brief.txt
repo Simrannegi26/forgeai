@@ -1,0 +1,2 @@
+
+I need an assistant for the procurement team that answers questions about ship spare parts: prices, lead times, stock, supplier payment terms and delivery SLAs. It should be able to look up parts in the catalogue and work out order totals.
