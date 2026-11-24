@@ -1,0 +1,7 @@
+An AI assistant covers this scope: {{scope}}
+It has ONLY these documents:
+{{profile}}
+
+Write {{n}} realistic questions that a user in this same domain might ask but that these documents almost certainly do NOT answer (a different policy, a number not given, a related but uncovered subject). Each must sound natural and on-topic.
+
+Reply with ONLY JSON: {"questions": ["...", "..."]}

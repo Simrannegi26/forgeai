@@ -1,0 +1,342 @@
+[
+  {
+    "id": "c01",
+    "type": "answerable",
+    "subtype": "single_fact",
+    "question": "What must be done if a supplier fails to notify the company promptly and takes no steps to minimize the impact of their actions?",
+    "expected_refuse": false,
+    "expected_docs": [
+      "Delivery_SLA.pdf"
+    ],
+    "key_facts": [
+      "promptly",
+      "reasonable steps",
+      "Procurement Manager"
+    ],
+    "reference_answer": "If a supplier fails to notify the company promptly and takes no steps to minimize the impact of their actions, the company must refer any disputed penalty to the Procurement Manager within 10 working days of notification."
+  },
+  {
+    "id": "c02",
+    "type": "answerable",
+    "subtype": "single_fact",
+    "question": "What is the total unit price for the high pressure fuel pump (NMS-1002)?",
+    "expected_refuse": false,
+    "expected_docs": [
+      "spare_parts_catalogue.csv"
+    ],
+    "key_facts": [
+      "1250.00"
+    ],
+    "reference_answer": "The total unit price for the high pressure fuel pump (NMS-1002) is $1250.00."
+  },
+  {
+    "id": "c03",
+    "type": "answerable",
+    "subtype": "single_fact",
+    "question": "What is the maximum time frame for a supplier to provide a proposed resolution to a warranty claim?",
+    "expected_refuse": false,
+    "expected_docs": [
+      "Supplier_Terms.pdf"
+    ],
+    "key_facts": [
+      "5.6",
+      "10 working days"
+    ],
+    "reference_answer": "A supplier must provide a proposed resolution within 10 working days of acknowledging a warranty claim."
+  },
+  {
+    "id": "c04",
+    "type": "answerable",
+    "subtype": "single_fact",
+    "question": "What is the standard same-day dispatch cut-off time for suppliers in the document?",
+    "expected_refuse": false,
+    "expected_docs": [
+      "Delivery_SLA.pdf"
+    ],
+    "key_facts": [
+      "12:00 noon",
+      "supplier's local time zone"
+    ],
+    "reference_answer": "The standard same-day dispatch cut-off time is 12:00 noon in the supplier's local time zone for confirmed orders with available stock."
+  },
+  {
+    "id": "c05",
+    "type": "answerable",
+    "subtype": "single_fact",
+    "question": "What is the price of the hydraulic piston seal set?",
+    "expected_refuse": false,
+    "expected_docs": [
+      "spare_parts_catalogue.csv"
+    ],
+    "key_facts": [
+      "88.00"
+    ],
+    "reference_answer": "The price of the hydraulic piston seal set is $88.00."
+  },
+  {
+    "id": "c06",
+    "type": "answerable",
+    "subtype": "single_fact",
+    "question": "What is the earliest payment term offered by any of the suppliers mentioned in the document?",
+    "expected_refuse": false,
+    "expected_docs": [
+      "Supplier_Terms.pdf"
+    ],
+    "key_facts": [
+      "Net 30",
+      "Net 45"
+    ],
+    "reference_answer": "The earliest payment term offered by any of the suppliers mentioned in the document is Net 30, which is offered by Nordic Marine Supply."
+  },
+  {
+    "id": "c07",
+    "type": "answerable",
+    "subtype": "single_fact",
+    "question": "What is the maximum amount the Procurement Manager can approve for urgent delivery surcharges?",
+    "expected_refuse": false,
+    "expected_docs": [
+      "Delivery_SLA.pdf"
+    ],
+    "key_facts": [
+      "USD 1,000"
+    ],
+    "reference_answer": "The Procurement Manager can approve urgent delivery surcharges up to USD 1,000. Any surcharge higher than this amount requires approval from the Chief Operating Officer."
+  },
+  {
+    "id": "c08",
+    "type": "answerable",
+    "subtype": "single_fact",
+    "question": "What is the total cost of the Engine Components listed by Anchor & Gear Co?",
+    "expected_refuse": false,
+    "expected_docs": [
+      "spare_parts_catalogue.csv"
+    ],
+    "key_facts": [
+      "4250.00",
+      "Anchor & Gear Co",
+      "4250.00"
+    ],
+    "reference_answer": "The total cost of the Engine Components listed by Anchor & Gear Co is $4250.00."
+  },
+  {
+    "id": "c09",
+    "type": "answerable",
+    "subtype": "single_fact",
+    "question": "How many working days should parties attempt to resolve disputes through good-faith discussions?",
+    "expected_refuse": false,
+    "expected_docs": [
+      "Supplier_Terms.pdf"
+    ],
+    "key_facts": [
+      "15 working days"
+    ],
+    "reference_answer": "The parties should attempt to resolve disputes through good-faith discussions within 15 working days."
+  },
+  {
+    "id": "c10",
+    "type": "answerable",
+    "subtype": "single_fact",
+    "question": "What sections of the Supplier Terms & Conditions govern payment schedules, early-payment discounts, minimum order values, returns, and warranty obligations?",
+    "expected_refuse": false,
+    "expected_docs": [
+      "Delivery_SLA.pdf"
+    ],
+    "key_facts": [
+      "Sections 3 through 5"
+    ],
+    "reference_answer": "The payment schedules, early-payment discounts, minimum order values, returns, and warranty obligations are governed by the Supplier Terms & Conditions, Sections 3 through 5."
+  },
+  {
+    "id": "c11",
+    "type": "answerable",
+    "subtype": "single_fact",
+    "question": "What is the total cost of the main engine thrust bearing (PSP-2005) and the hydraulic piston seal set (PSP-2013) together?",
+    "expected_refuse": false,
+    "expected_docs": [
+      "spare_parts_catalogue.csv"
+    ],
+    "key_facts": [
+      "2250.00",
+      "88.00"
+    ],
+    "reference_answer": "The total cost of the main engine thrust bearing (PSP-2005) and the hydraulic piston seal set (PSP-2013) together is $2338.00."
+  },
+  {
+    "id": "c12",
+    "type": "answerable",
+    "subtype": "single_fact",
+    "question": "What is the minimum order value for which the Procurement Manager can authorize an urgent purchase?",
+    "expected_refuse": false,
+    "expected_docs": [
+      "Supplier_Terms.pdf"
+    ],
+    "key_facts": [
+      "USD 5,000"
+    ],
+    "reference_answer": "The Procurement Manager can authorize an urgent purchase when the order exceeds the standard minimum order value, which is not specified in the passage but can be inferred to be less than USD 5,000."
+  },
+  {
+    "id": "c13",
+    "type": "edge",
+    "subtype": "ambiguous_phrasing",
+    "question": "What happens if an order is placed after the cut-off time?",
+    "expected_refuse": false,
+    "expected_docs": [
+      "Delivery_SLA.pdf"
+    ],
+    "key_facts": [
+      "3.2 Suppliers must provide order confirmation containing the purchase order reference, accepted quantities, expected dispatch date, and estimated arrival date."
+    ],
+    "reference_answer": "If an order is placed after the cut-off time, it will be processed for dispatch on the next working day."
+  },
+  {
+    "id": "c14",
+    "type": "edge",
+    "subtype": "ambiguous_phrasing",
+    "question": "What are the prices for the Engine Components category?",
+    "expected_refuse": false,
+    "expected_docs": [
+      "spare_parts_catalogue.csv"
+    ],
+    "key_facts": [
+      "part_number | description | category | unit_price_usd | lead_time_days | stock_qty | supplier | min_order_qty",
+      "NMS-1001 | Marine diesel fuel injector | Engine Components | 485.00 | 14 | 35 | Nordic Marine Supply | 2",
+      "NMS-1002 | High pressure fuel pump | Engine Components | 1250.00 | 28 | 12 | Nordic Marine Supply | 1"
+    ],
+    "reference_answer": "The prices for Engine Components are $485.00 for NMS-1001 and $1250.00 for NMS-1002."
+  },
+  {
+    "id": "c15",
+    "type": "edge",
+    "subtype": "ambiguous_phrasing",
+    "question": "What is the minimum order value required by Anchor & Gear Co.?",
+    "expected_refuse": false,
+    "expected_docs": [
+      "Supplier_Terms.pdf"
+    ],
+    "key_facts": [
+      "4.3 Anchor & Gear Co. requires a minimum order value of USD 500."
+    ],
+    "reference_answer": "Anchor & Gear Co. requires a minimum order value of USD 500."
+  },
+  {
+    "id": "c16",
+    "type": "edge",
+    "subtype": "multi_document",
+    "question": "What are the conditions for urgent orders and how do they relate to the Delivery SLA?",
+    "expected_refuse": false,
+    "expected_docs": [
+      "Delivery_SLA.pdf",
+      "Supplier_Terms.pdf"
+    ],
+    "key_facts": [
+      "8.2 Payment schedules, early-payment discounts, minimum order values, returns, and warranty obligations are governed by the Supplier Terms & Conditions, Sections 3 through 5.",
+      "6.2 The Procurement Manager may authorise an urgent purchase outside the standard minimum order value."
+    ],
+    "reference_answer": "Urgent orders are authorized when a spare part is needed to prevent significant downtime or operational interruptions. These orders must comply with the Delivery SLA for delivery windows, service commitments, and late-delivery penalties. Additionally, urgent orders require approval from the Chief Operating Officer for orders over USD 5,000 and must be disclosed and approved in writing."
+  },
+  {
+    "id": "c17",
+    "type": "edge",
+    "subtype": "multi_document",
+    "question": "Which supplier(s) must meet the longest standard delivery windows for the Asia-Pacific region and what are those windows?",
+    "expected_refuse": false,
+    "expected_docs": [
+      "Delivery_SLA.pdf",
+      "Supplier_Terms.pdf"
+    ],
+    "key_facts": [
+      "1.2 These terms apply to purchase orders issued by Mariner Shipping Ltd. procurement and authorised technical departments.",
+      "2.1 Nordic Marine Supply must meet the following standard delivery windows: a. Northern Europe: 5\u201310 calendar days."
+    ],
+    "reference_answer": "Nordic Marine Supply and Pacific Ship Parts must meet the longest standard delivery windows for the Asia-Pacific region, which are 18\u201328 calendar days for Nordic Marine Supply and 5\u201312 calendar days for Pacific Ship Parts."
+  },
+  {
+    "id": "c18",
+    "type": "edge",
+    "subtype": "multi_document",
+    "question": "Which supplier has different payment terms and what are they?",
+    "expected_refuse": false,
+    "expected_docs": [
+      "Supplier_Terms.pdf",
+      "spare_parts_catalogue.csv"
+    ],
+    "key_facts": [
+      "95 | Nordic Marine Supply | 5 NMS-1013 | Propeller shaft roller bearing | Bearings | 1450.00 | 45 | 4 | Nordic Marine Supply | 1 NMS-1014 | Hydraulic cylinder seal kit | Seals | 95.00 | 13 | 38",
+      "3.2 Nordic Marine Supply offers a 2% early-payment discount where the invoice is paid within 10 calendar days.",
+      "3.3 Pacific Ship Parts operates on Net 45 payment terms.",
+      "3.4 Pacific Ship Parts offers a 1.5% early-payment discount where the invoice is paid within 15 calendar days."
+    ],
+    "reference_answer": "Nordic Marine Supply operates on Net 30 payment terms, while Pacific Ship Parts operates on Net 45 payment terms."
+  },
+  {
+    "id": "c19",
+    "type": "out_of_scope",
+    "subtype": "must_refuse",
+    "question": "How do I ensure that sensitive information, such as supplier payment terms, is not shared with unauthorized users when using ProcAssist for managing ship spare parts information?",
+    "expected_refuse": true,
+    "expected_docs": [],
+    "key_facts": [],
+    "reference_answer": ""
+  },
+  {
+    "id": "c20",
+    "type": "out_of_scope",
+    "subtype": "must_refuse",
+    "question": "What is the current price and lead time for a standard engine bearing on your platform?",
+    "expected_refuse": true,
+    "expected_docs": [],
+    "key_facts": [],
+    "reference_answer": ""
+  },
+  {
+    "id": "c21",
+    "type": "out_of_scope",
+    "subtype": "must_refuse",
+    "question": "How do I ensure that my personal information, such as my payment details, is kept secure when using ProcAssist for purchasing ship spare parts?",
+    "expected_refuse": true,
+    "expected_docs": [],
+    "key_facts": [],
+    "reference_answer": ""
+  },
+  {
+    "id": "c22",
+    "type": "out_of_scope",
+    "subtype": "plausible",
+    "question": "Is there a minimum order quantity for suppliers other than the one mentioned in the Supplier_Terms document?",
+    "expected_refuse": true,
+    "expected_docs": [],
+    "key_facts": [],
+    "reference_answer": ""
+  },
+  {
+    "id": "c23",
+    "type": "out_of_scope",
+    "subtype": "plausible",
+    "question": "How does Mariner Shipping Ltd. handle price adjustments for suppliers exceeding 5% of the previously agreed quotation?",
+    "expected_refuse": true,
+    "expected_docs": [],
+    "key_facts": [],
+    "reference_answer": ""
+  },
+  {
+    "id": "c24",
+    "type": "out_of_scope",
+    "subtype": "off_topic",
+    "question": "What is the primary function of ProcAssist?",
+    "expected_refuse": true,
+    "expected_docs": [],
+    "key_facts": [],
+    "reference_answer": ""
+  },
+  {
+    "id": "c25",
+    "type": "out_of_scope",
+    "subtype": "off_topic",
+    "question": "ProcAssist can provide information on various aspects of ship spare parts. Which of the following is NOT typically one of those aspects? (prices, lead times, supplier payment terms, weather conditions)",
+    "expected_refuse": true,
+    "expected_docs": [],
+    "key_facts": [],
+    "reference_answer": ""
+  }
+]

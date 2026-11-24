@@ -1,0 +1,354 @@
+[
+  {
+    "id": "c01",
+    "type": "answerable",
+    "subtype": "single_fact",
+    "question": "What must employees do if they experience or witness inappropriate conduct during company travel?",
+    "expected_refuse": false,
+    "expected_docs": [
+      "Code_of_Conduct.pdf"
+    ],
+    "key_facts": [
+      "maintains a zero-tolerance approach to harassment, sexual harassment, discrimination, and workplace intimidation.",
+      "Employees experiencing or witnessing inappropriate conduct should report the incident through the confidential Ethics & Respect Hotline or directly to the HR Director."
+    ],
+    "reference_answer": "Employees experiencing or witnessing inappropriate conduct should report the incident through the confidential Ethics & Respect Hotline or directly to the HR Director."
+  },
+  {
+    "id": "c02",
+    "type": "answerable",
+    "subtype": "single_fact",
+    "question": "What is the maximum number of unused annual leave days an employee can carry forward into the following calendar year?",
+    "expected_refuse": false,
+    "expected_docs": [
+      "Leave_Policy.pdf"
+    ],
+    "key_facts": [
+      "5"
+    ],
+    "reference_answer": "The maximum number of unused annual leave days an employee can carry forward into the following calendar year is 5."
+  },
+  {
+    "id": "c03",
+    "type": "answerable",
+    "subtype": "single_fact",
+    "question": "What is the maximum amount for individual expenses that requires a verifiable electronic receipt?",
+    "expected_refuse": false,
+    "expected_docs": [
+      "Travel_Expense_Policy.pdf"
+    ],
+    "key_facts": [
+      "USD 25"
+    ],
+    "reference_answer": "The maximum amount for individual expenses that requires a verifiable electronic receipt is USD 25."
+  },
+  {
+    "id": "c04",
+    "type": "answerable",
+    "subtype": "single_fact",
+    "question": "What is the maximum value of promotional gifts that can be accepted without prior approval from the Compliance Officer?",
+    "expected_refuse": false,
+    "expected_docs": [
+      "Code_of_Conduct.pdf"
+    ],
+    "key_facts": [
+      "5.2 Modest promotional gifts valued at USD 50 or less may be accepted where they are occasional, transparent, and do not influence business decisions."
+    ],
+    "reference_answer": "Promotional gifts valued at USD 50 or less may be accepted without prior approval from the Compliance Officer, provided they are occasional, transparent, and do not influence business decisions."
+  },
+  {
+    "id": "c05",
+    "type": "answerable",
+    "subtype": "single_fact",
+    "question": "What is the duration of the standard peak-season blackout period?",
+    "expected_refuse": false,
+    "expected_docs": [
+      "Leave_Policy.pdf"
+    ],
+    "key_facts": [
+      "6.2 The standard peak-season blackout period is 1 November to 15 December each year."
+    ],
+    "reference_answer": "The standard peak-season blackout period is from 1 November to 15 December each year."
+  },
+  {
+    "id": "c06",
+    "type": "answerable",
+    "subtype": "single_fact",
+    "question": "What is the consequence for deliberate misrepresentation of travel and expense claims?",
+    "expected_refuse": false,
+    "expected_docs": [
+      "Travel_Expense_Policy.pdf"
+    ],
+    "key_facts": [
+      "10.2 Deliberate misrepresentation or fraudulent claims may result in disciplinary action."
+    ],
+    "reference_answer": "Deliberate misrepresentation or fraudulent claims may result in disciplinary action."
+  },
+  {
+    "id": "c07",
+    "type": "answerable",
+    "subtype": "single_fact",
+    "question": "How many working days should a formal investigation be completed within, according to the passage?",
+    "expected_refuse": false,
+    "expected_docs": [
+      "Code_of_Conduct.pdf"
+    ],
+    "key_facts": [
+      "20 working days"
+    ],
+    "reference_answer": "A formal investigation should be completed within 20 working days."
+  },
+  {
+    "id": "c08",
+    "type": "answerable",
+    "subtype": "single_fact",
+    "question": "What is the approval structure for leave requests exceeding 10 consecutive working days?",
+    "expected_refuse": false,
+    "expected_docs": [
+      "Leave_Policy.pdf"
+    ],
+    "key_facts": [
+      "7.4"
+    ],
+    "reference_answer": "Requests exceeding 10 consecutive working days require approval from the Department Head and HR Manager."
+  },
+  {
+    "id": "c09",
+    "type": "answerable",
+    "subtype": "single_fact",
+    "question": "What is the maximum amount for travel that requires approval from the Chief Financial Officer and Chief Operating Officer?",
+    "expected_refuse": false,
+    "expected_docs": [
+      "Travel_Expense_Policy.pdf"
+    ],
+    "key_facts": [
+      "USD 5,000"
+    ],
+    "reference_answer": "The maximum amount for travel that requires approval from the Chief Financial Officer and Chief Operating Officer is USD 5,000."
+  },
+  {
+    "id": "c10",
+    "type": "answerable",
+    "subtype": "single_fact",
+    "question": "What actions are prohibited according to the Code of Conduct for Mariner Shipping Ltd?",
+    "expected_refuse": false,
+    "expected_docs": [
+      "Code_of_Conduct.pdf"
+    ],
+    "key_facts": [
+      "Discrimination",
+      "bullying",
+      "intimidation",
+      "retaliation",
+      "harassment"
+    ],
+    "reference_answer": "Discrimination, bullying, intimidation, retaliation, and harassment are prohibited according to the Code of Conduct for Mariner Shipping Ltd."
+  },
+  {
+    "id": "c11",
+    "type": "answerable",
+    "subtype": "single_fact",
+    "question": "What is the maximum number of working days of sick leave eligible employees receive per calendar year?",
+    "expected_refuse": false,
+    "expected_docs": [
+      "Leave_Policy.pdf"
+    ],
+    "key_facts": [
+      "10 working days"
+    ],
+    "reference_answer": "Eligible employees receive 10 working days of paid sick leave per calendar year."
+  },
+  {
+    "id": "c12",
+    "type": "answerable",
+    "subtype": "single_fact",
+    "question": "What is the maximum per-diem allowance for Tier 1 cities like London?",
+    "expected_refuse": false,
+    "expected_docs": [
+      "Travel_Expense_Policy.pdf"
+    ],
+    "key_facts": [
+      "USD 85"
+    ],
+    "reference_answer": "The maximum per-diem allowance for Tier 1 cities like London is USD 85 per day."
+  },
+  {
+    "id": "c13",
+    "type": "edge",
+    "subtype": "ambiguous_phrasing",
+    "question": "What are the rules for accepting gifts from suppliers?",
+    "expected_refuse": false,
+    "expected_docs": [
+      "Code_of_Conduct.pdf"
+    ],
+    "key_facts": [
+      "5.2 Modest promotional gifts valued at USD 50 or less may be accepted where they are occasional, transparent, and do not influence business decisions.",
+      "5.3 Gifts valued above USD 50 must be declared to the Compliance Officer within 2 working days."
+    ],
+    "reference_answer": "Employees can only accept modest promotional gifts valued at USD 50 or less, and they must be declared to the Compliance Officer within 2 working days. Acceptance requires written approval from the Department Head and Compliance Officer."
+  },
+  {
+    "id": "c14",
+    "type": "edge",
+    "subtype": "ambiguous_phrasing",
+    "question": "What kind of leave is not restricted by the probationary annual leave limitation?",
+    "expected_refuse": false,
+    "expected_docs": [
+      "Leave_Policy.pdf"
+    ],
+    "key_facts": [
+      "3.3 Emergency medical leave and statutory leave are not restricted by the probationary annual leave limitation."
+    ],
+    "reference_answer": "Emergency medical leave and statutory leave are not restricted by the probationary annual leave limitation."
+  },
+  {
+    "id": "c15",
+    "type": "edge",
+    "subtype": "ambiguous_phrasing",
+    "question": "What is the maximum amount that requires Department Head approval for travel?",
+    "expected_refuse": false,
+    "expected_docs": [
+      "Travel_Expense_Policy.pdf"
+    ],
+    "key_facts": [
+      "2.4 Travel costing between USD 1,501 and USD 5,000 requires Department Head approval."
+    ],
+    "reference_answer": "The maximum amount that requires Department Head approval is USD 1,500."
+  },
+  {
+    "id": "c16",
+    "type": "edge",
+    "subtype": "multi_document",
+    "question": "What are the responsibilities of the Compliance Department and the Finance department in relation to reporting and handling ethical concerns and travel expense claims respectively?",
+    "expected_refuse": false,
+    "expected_docs": [
+      "Code_of_Conduct.pdf",
+      "Travel_Expense_Policy.pdf"
+    ],
+    "key_facts": [
+      "10.1 Ethical concerns may be reported to the Compliance Officer or through the confidential Ethics & Respect Hotline.",
+      "10.2 Reports will be handled objectively and without discrimination or retaliation.",
+      "10.3 The Compliance Department is responsible for maintaining records of reported violations and disciplinary outcomes.",
+      "10.1 Employees are responsible for the accuracy of their travel and expense claims.",
+      "10.2 Deliberate misrepresentation or fraudulent claims may result in disciplinary action.",
+      "10.3 Finance is responsible for reviewing expense submissions and maintaining financial records."
+    ],
+    "reference_answer": "The Compliance Department is responsible for maintaining records of reported violations and disciplinary outcomes related to ethical concerns, while Finance is responsible for reviewing expense submissions and maintaining financial records related to travel expenses."
+  },
+  {
+    "id": "c17",
+    "type": "edge",
+    "subtype": "multi_document",
+    "question": "What are the consequences for employees who misuse leave or submit fraudulent supporting documents, and how does this relate to the preliminary assessment and formal investigation process outlined in the Code of Conduct?",
+    "expected_refuse": false,
+    "expected_docs": [
+      "Code_of_Conduct.pdf",
+      "Leave_Policy.pdf"
+    ],
+    "key_facts": [
+      "7.5 Exceptions involving peak-season restrictions or carry-forward limits require approval from the HR Director and, where specified, the Chief Operating Officer.",
+      "6.5 A preliminary assessment should begin within 5 working days. Where appropriate, a formal investigation should normally be completed within 20 working days.",
+      "9.1 Employees must follow the procedures established in the Leave Policy when requesting annual, sick, maternity, or paternity leave.",
+      "6.6 Employees may request confidential handling of their reports. Information will be shared only with individuals who need it for investigation and resolution."
+    ],
+    "reference_answer": "Misuse of leave or submitting fraudulent supporting documents may result in disciplinary action under the Code of Conduct, including formal investigation and stronger disciplinary action. This relates to the preliminary assessment and formal investigation process, as outlined in Section 6.5 and 6.6 of the Code of Conduct, where appropriate, a formal investigation should normally be completed within 20 working days."
+  },
+  {
+    "id": "c18",
+    "type": "edge",
+    "subtype": "multi_document",
+    "question": "How does the travel expense policy allow for the combination of business travel with personal leave, and what are the requirements for such a combination?",
+    "expected_refuse": false,
+    "expected_docs": [
+      "Leave_Policy.pdf",
+      "Travel_Expense_Policy.pdf"
+    ],
+    "key_facts": [
+      "6.4 Emergency medical leave, maternity leave, statutory leave, and other legally protected absences are not prohibited by this restriction.",
+      "MARINER SHIPPING LTD. TRAVEL & EXPENSE POLICY Applicable to: Shore Staff Document ID: FIN-POL-002 Version: 1.0",
+      "3. TRAVEL AND LEAVE COMBINATIONS 3.1 Employees may combine approved business travel with personal leave where operational requirements permit.",
+      "3.2 When business travel is combined with personal leave, the company will pay only the expenses directly attributable to the approved business portion."
+    ],
+    "reference_answer": "The travel expense policy allows for the combination of approved business travel with personal leave where operational requirements permit. Employees must obtain written approval from their Line Manager and HR before combining business travel with annual leave. Additionally, the company will pay only the expenses directly attributable to the approved business portion, while additional personal accommodation, meals, transport, and travel changes must be paid by the employee."
+  },
+  {
+    "id": "c19",
+    "type": "out_of_scope",
+    "subtype": "must_refuse",
+    "question": "What are the benefits and drawbacks of accepting stock options in my employment contract?",
+    "expected_refuse": true,
+    "expected_docs": [],
+    "key_facts": [],
+    "reference_answer": ""
+  },
+  {
+    "id": "c20",
+    "type": "out_of_scope",
+    "subtype": "must_refuse",
+    "question": "What are the eligibility criteria for contributing to a pension plan and how do I enroll in one at Mariner Shipping Ltd?",
+    "expected_refuse": true,
+    "expected_docs": [],
+    "key_facts": [],
+    "reference_answer": ""
+  },
+  {
+    "id": "c21",
+    "type": "out_of_scope",
+    "subtype": "must_refuse",
+    "question": "What is the difference between gross pay and net pay?",
+    "expected_refuse": true,
+    "expected_docs": [],
+    "key_facts": [],
+    "reference_answer": ""
+  },
+  {
+    "id": "c22",
+    "type": "out_of_scope",
+    "subtype": "plausible",
+    "question": "What is the maximum amount of annual leave that a full-time employee at Mariner Shipping Ltd. receives?",
+    "expected_refuse": true,
+    "expected_docs": [],
+    "key_facts": [],
+    "reference_answer": ""
+  },
+  {
+    "id": "c23",
+    "type": "out_of_scope",
+    "subtype": "plausible",
+    "question": "What is the process for requesting and approving travel expenses exceeding USD 5,000 for shore staff?",
+    "expected_refuse": true,
+    "expected_docs": [],
+    "key_facts": [],
+    "reference_answer": ""
+  },
+  {
+    "id": "c24",
+    "type": "out_of_scope",
+    "subtype": "plausible",
+    "question": "What are the specific requirements for travel authorization for shore staff when the business purpose is related to supplier visits?",
+    "expected_refuse": true,
+    "expected_docs": [],
+    "key_facts": [],
+    "reference_answer": ""
+  },
+  {
+    "id": "c25",
+    "type": "out_of_scope",
+    "subtype": "off_topic",
+    "question": "What is the main function of a code of conduct for shore staff?",
+    "expected_refuse": true,
+    "expected_docs": [],
+    "key_facts": [],
+    "reference_answer": ""
+  },
+  {
+    "id": "c26",
+    "type": "out_of_scope",
+    "subtype": "off_topic",
+    "question": "How does MarinerAI assist in providing clear and authoritative answers to HR policy questions?",
+    "expected_refuse": true,
+    "expected_docs": [],
+    "key_facts": [],
+    "reference_answer": ""
+  }
+]

@@ -1,0 +1,11 @@
+Choose which tools an AI assistant needs. Attach ONLY tools the brief clearly requires. An empty list is a valid and often correct answer. Every tool needs a one-sentence justification tied to the brief.
+
+BRIEF: {{brief}}
+SCOPE: {{scope}}
+MUST ANSWER: {{must_answer}}
+DOCUMENT FILES: {{files}}
+
+AVAILABLE TOOLS:
+{{menu}}
+
+Reply with ONLY JSON: {"tools": [{"name": "...", "justification": "..."}]}

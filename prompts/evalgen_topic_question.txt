@@ -1,0 +1,3 @@
+Write ONE realistic question a user might ask about this topic: {{topic}}
+Context: {{scope}}
+Reply with ONLY JSON: {"question": "..."}

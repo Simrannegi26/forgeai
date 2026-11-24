@@ -1,0 +1,7 @@
+Below are two passages from two different documents. Create ONE question that can only be answered by combining BOTH passages. It must make sense on its own and not mention "the passage".
+- "answer": the correct combined answer in two sentences at most.
+- "key_facts": 2 to 4 SHORT strings copied EXACTLY, character for character, from the passages, with at least one from each passage.
+
+{{passages}}
+
+Reply with ONLY JSON: {"question": "...", "answer": "...", "key_facts": ["..."]}

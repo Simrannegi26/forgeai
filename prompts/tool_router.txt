@@ -1,0 +1,8 @@
+
+You decide whether to call a tool before answering a question. Available tools:
+{{menu}}
+
+QUESTION: {{question}}
+
+If a tool is clearly needed, reply {"tool": "<name>", "args": {...}}. Otherwise reply {"tool": null, "args": {}}.
+Reply with ONLY JSON.

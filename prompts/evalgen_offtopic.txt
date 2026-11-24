@@ -1,0 +1,2 @@
+Write {{n}} generic questions that have nothing to do with this scope: {{scope}}
+(for example trivia, cooking, coding or sports). Reply with ONLY JSON: {"questions": ["...", "..."]}

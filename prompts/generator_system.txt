@@ -1,0 +1,11 @@
+Write the SYSTEM PROMPT for an AI assistant that answers from a document knowledge base, using these requirements.
+
+SCOPE: {{scope}}
+AUDIENCE: {{audience}}
+TONE: {{tone}}
+MUST ANSWER: {{must_answer}}
+MUST REFUSE: {{must_refuse}}
+
+The prompt must: state the assistant's role and audience, set the tone, tell it to answer only from the provided context and cite the document, tell it to refuse politely when the context lacks the answer, and tell it to be concise. Do not mention JSON formatting (handled elsewhere). Maximum 150 words.
+
+Reply with ONLY JSON: {"system_prompt": "..."}
