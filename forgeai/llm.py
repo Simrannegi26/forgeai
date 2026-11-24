@@ -77,10 +77,22 @@ def chat_json(system, user, schema, model=None, retries=3):
 
 
 def embed(texts: list[str]) -> list[list[float]]:
-    r = requests.post(
-        f"{OLLAMA}/api/embed",
-        json={"model": EMBED_MODEL, "input": texts},
-        timeout=300,
-    )
-    r.raise_for_status()
-    return r.json()["embeddings"]
+    out = [None] * len(texts)
+    todo = []
+    for i, t in enumerate(texts):
+        f = CACHE_DIR / f"emb_{_key(EMBED_MODEL, t)}.json"
+        if f.exists():
+            out[i] = json.loads(f.read_text(encoding="utf-8"))
+        else:
+            todo.append(i)
+    if todo:
+        r = requests.post(
+            f"{OLLAMA}/api/embed",
+            json={"model": EMBED_MODEL, "input": [texts[i] for i in todo]},
+            timeout=300,
+        )
+        r.raise_for_status()
+        for i, v in zip(todo, r.json()["embeddings"]):
+            out[i] = v
+            (CACHE_DIR / f"emb_{_key(EMBED_MODEL, texts[i])}.json").write_text(json.dumps(v), encoding="utf-8")
+    return out

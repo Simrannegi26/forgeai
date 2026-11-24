@@ -7,3 +7,5 @@ rank-bm25
 numpy
 requests
 rich
+reportlab
+pytest
