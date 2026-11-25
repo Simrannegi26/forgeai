@@ -1,0 +1,39 @@
+[
+  {
+    "iteration": 0,
+    "change": "baseline (generated agent)",
+    "category": "-",
+    "score_before": null,
+    "score_after": 0.36,
+    "accepted": true,
+    "by_type": {
+      "overall": 0.36,
+      "n": 25,
+      "answerable": 0.5,
+      "out_of_scope": 0.429,
+      "edge": 0.0
+    }
+  },
+  {
+    "iteration": 1,
+    "category": "prompt_defect",
+    "change": "add rule: When responding to questions, ensure that the information provided is directly supported by the retrieved passages or is a logical inference from the given context, avoiding speculation or assumptions not aligned with the provided text.",
+    "reason": "The right context was retrieved but the answer missed or distorted key facts.",
+    "failures_addressed": [
+      "c19"
+    ],
+    "regressions": [
+      "c12"
+    ],
+    "score_before": 0.36,
+    "score_after": 0.36,
+    "accepted": false,
+    "by_type": {
+      "overall": 0.36,
+      "n": 25,
+      "answerable": 0.417,
+      "out_of_scope": 0.571,
+      "edge": 0.0
+    }
+  }
+]

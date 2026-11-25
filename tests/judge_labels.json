@@ -1,0 +1,67 @@
+
+[
+  {
+    "question": "What are the leave rules?",
+    "key_facts": ["24 days", "5 days"],
+    "candidate": "You get 24 days of annual leave and can carry over up to 5 days.",
+    "label": true
+  },
+  {
+    "question": "What are the leave rules?",
+    "key_facts": ["24 days", "5 days"],
+    "candidate": "You get 24 days of annual leave.",
+    "label": false
+  },
+  {
+    "question": "How long is maternity leave?",
+    "key_facts": ["26 weeks"],
+    "candidate": "Maternity leave is 26 weeks.",
+    "label": true
+  },
+  {
+    "question": "How long is maternity leave?",
+    "key_facts": ["26 weeks"],
+    "candidate": "Maternity leave is 12 weeks.",
+    "label": false,
+    "negative_control": true
+  },
+  {
+    "question": "When is a certificate needed?",
+    "key_facts": ["medical certificate", "2 days"],
+    "candidate": "A medical certificate is needed if you are absent for more than 2 days.",
+    "label": true
+  },
+  {
+    "question": "When is a certificate needed?",
+    "key_facts": ["medical certificate", "2 days"],
+    "candidate": "A medical certificate is needed for any sick leave at all.",
+    "label": false,
+    "negative_control": true
+  },
+  {
+    "question": "How early must I request leave?",
+    "key_facts": ["7 days", "HR portal"],
+    "candidate": "Submit your request at least 7 days ahead through the HR portal.",
+    "label": true
+  },
+  {
+    "question": "What is the unit price?",
+    "key_facts": ["$450"],
+    "candidate": "The unit price is $450 per piece.",
+    "label": true
+  },
+  {
+    "question": "What is the unit price?",
+    "key_facts": ["$450"],
+    "candidate": "The unit price is $540 per piece.",
+    "label": false,
+    "negative_control": true
+  },
+  {
+    "question": "What is the delivery window?",
+    "key_facts": ["14 days", "Nordic Marine Supply"],
+    "candidate": "I'm sorry, I cannot find this in the documents.",
+    "label": false,
+    "negative_control": true
+  }
+]

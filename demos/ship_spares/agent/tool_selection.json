@@ -2,25 +2,25 @@
   "proposed": [
     {
       "name": "csv_lookup",
-      "justification": "Look up parts, prices, stock, and lead times in the catalogue for answering questions about ship spare parts"
+      "justification": "To look up prices, lead times, stock levels, and part descriptions in the spare parts catalogue"
     },
     {
       "name": "calculator",
-      "justification": "Calculate order totals based on the catalogue for answering questions about ship spare parts"
+      "justification": "To calculate order totals based on the catalogue prices and quantities"
     },
     {
       "name": "current_date",
-      "justification": "For handling deadlines and expiry related to the documents"
+      "justification": "To ensure all information is up-to-date and relevant to the current date"
     }
   ],
   "kept": [
     {
       "name": "csv_lookup",
-      "justification": "Look up parts, prices, stock, and lead times in the catalogue for answering questions about ship spare parts"
+      "justification": "To look up prices, lead times, stock levels, and part descriptions in the spare parts catalogue"
     },
     {
       "name": "calculator",
-      "justification": "Calculate order totals based on the catalogue for answering questions about ship spare parts"
+      "justification": "To calculate order totals based on the catalogue prices and quantities"
     }
   ],
   "dropped": [

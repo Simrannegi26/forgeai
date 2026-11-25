@@ -1,0 +1,718 @@
+[
+  {
+    "id": "c01",
+    "type": "answerable",
+    "question": "What must be done if a supplier fails to notify the company promptly and takes no steps to minimize the impact of their actions?",
+    "expected_refuse": false,
+    "answer": "If a supplier fails to notify the company promptly and takes no steps to minimize the impact of their actions, any disputed penalty must be referred to the Procurement Manager within 10 working days of notification.",
+    "refused": false,
+    "citations": [
+      {
+        "doc": "Delivery_SLA.pdf p.2",
+        "quote": "4.7 Any disputed penalty must be referred to the Procurement Manager within 10 working days of notification."
+      }
+    ],
+    "retrieved_docs": [
+      "Delivery_SLA.pdf",
+      "Supplier_Terms.pdf"
+    ],
+    "refusal_ok": true,
+    "correct": false,
+    "grounded": true,
+    "method": "llm",
+    "passed": false,
+    "category": "prompt_defect"
+  },
+  {
+    "id": "c02",
+    "type": "answerable",
+    "question": "What is the total unit price for the high pressure fuel pump (NMS-1002)?",
+    "expected_refuse": false,
+    "answer": "1250.00",
+    "refused": false,
+    "citations": [
+      {
+        "doc": "spare_parts_catalogue.csv p.0",
+        "quote": "NMS-1002 | High pressure fuel pump | Engine Components | 1250.00 | 28 | 12 | Nordic Marine Supply | 1"
+      }
+    ],
+    "retrieved_docs": [
+      "Supplier_Terms.pdf",
+      "spare_parts_catalogue.csv",
+      "tool:csv_lookup"
+    ],
+    "refusal_ok": true,
+    "correct": true,
+    "grounded": true,
+    "method": "deterministic",
+    "passed": true,
+    "category": null
+  },
+  {
+    "id": "c03",
+    "type": "answerable",
+    "question": "What is the maximum time frame for a supplier to provide a proposed resolution to a warranty claim?",
+    "expected_refuse": false,
+    "answer": "10 working days",
+    "refused": false,
+    "citations": [
+      {
+        "doc": "Supplier_Terms.pdf p.2",
+        "quote": "Suppliers must acknowledge a warranty claim within 5 working days and provide a proposed resolution within 10 working days."
+      }
+    ],
+    "retrieved_docs": [
+      "Delivery_SLA.pdf",
+      "Supplier_Terms.pdf"
+    ],
+    "refusal_ok": true,
+    "correct": false,
+    "grounded": true,
+    "method": "llm",
+    "passed": false,
+    "category": "prompt_defect"
+  },
+  {
+    "id": "c04",
+    "type": "answerable",
+    "question": "What is the standard same-day dispatch cut-off time for suppliers in the document?",
+    "expected_refuse": false,
+    "answer": "12:00 noon in the supplier's local time zone",
+    "refused": false,
+    "citations": [
+      {
+        "doc": "Delivery_SLA.pdf p.2",
+        "quote": "3.3 The standard same-day dispatch cut-off time is 12:00 noon in the supplier's local time zone for confirmed orders with available stock."
+      }
+    ],
+    "retrieved_docs": [
+      "Delivery_SLA.pdf",
+      "Supplier_Terms.pdf"
+    ],
+    "refusal_ok": true,
+    "correct": true,
+    "grounded": true,
+    "method": "deterministic",
+    "passed": true,
+    "category": null
+  },
+  {
+    "id": "c05",
+    "type": "answerable",
+    "question": "What is the price of the hydraulic piston seal set?",
+    "expected_refuse": false,
+    "answer": "The price of the hydraulic piston seal set is $88.00.",
+    "refused": false,
+    "citations": [
+      {
+        "doc": "spare_parts_catalogue.csv p.0",
+        "quote": "part_number: PSP-2013; description: Hydraulic piston seal set; category: Seals; unit_price_usd: 88.0;"
+      }
+    ],
+    "retrieved_docs": [
+      "Supplier_Terms.pdf",
+      "spare_parts_catalogue.csv",
+      "tool:csv_lookup"
+    ],
+    "refusal_ok": true,
+    "correct": true,
+    "grounded": true,
+    "method": "deterministic",
+    "passed": true,
+    "category": null
+  },
+  {
+    "id": "c06",
+    "type": "answerable",
+    "question": "What is the earliest payment term offered by any of the suppliers mentioned in the document?",
+    "expected_refuse": false,
+    "answer": "The earliest payment term offered by any of the suppliers mentioned in the document is Net 30.",
+    "refused": false,
+    "citations": [
+      {
+        "doc": "Supplier_Terms.pdf p.2",
+        "quote": "3.1 Nordic Marine Supply operates on Net 30 payment terms. Payment is due 30 calendar days after receipt of a valid invoice and confirmation of acceptable delivery."
+      },
+      {
+        "doc": "Supplier_Terms.pdf p.2",
+        "quote": "3.2 Pacific Ship Parts operates on Net 45 payment terms. Payment is due 45 calendar days after receipt of a valid invoice and confirmation of acceptable delivery."
+      },
+      {
+        "doc": "Supplier_Terms.pdf p.2",
+        "quote": "3.5 Anchor & Gear Co. operates on Net 30 payment terms. Payment is due 30 calendar days after receipt of a valid invoice and confirmation of acceptable delivery."
+      }
+    ],
+    "retrieved_docs": [
+      "Delivery_SLA.pdf",
+      "Supplier_Terms.pdf"
+    ],
+    "refusal_ok": true,
+    "correct": false,
+    "grounded": true,
+    "method": "llm",
+    "passed": false,
+    "category": "prompt_defect"
+  },
+  {
+    "id": "c07",
+    "type": "answerable",
+    "question": "What is the maximum amount the Procurement Manager can approve for urgent delivery surcharges?",
+    "expected_refuse": false,
+    "answer": "USD 1,000",
+    "refused": false,
+    "citations": [
+      {
+        "doc": "Delivery_SLA.pdf p.2",
+        "quote": "5.8 The Procurement Manager may approve urgent delivery surcharges up to USD 1,000. Higher surcharges require approval from the Chief Operating Officer."
+      }
+    ],
+    "retrieved_docs": [
+      "Delivery_SLA.pdf",
+      "Supplier_Terms.pdf"
+    ],
+    "refusal_ok": true,
+    "correct": true,
+    "grounded": true,
+    "method": "deterministic",
+    "passed": true,
+    "category": null
+  },
+  {
+    "id": "c08",
+    "type": "answerable",
+    "question": "What is the total cost of the Engine Components listed by Anchor & Gear Co?",
+    "expected_refuse": false,
+    "answer": "The total cost of the Engine Components listed by Anchor & Gear Co is $2,420.00.",
+    "refused": false,
+    "citations": [
+      {
+        "doc": "spare_parts_catalogue.csv p.None",
+        "quote": "Engine Components | 4250.00 | 56 | 2 | Anchor & Gear Co | 1 AGC-3011 | Marine diesel injection pump | Engine Components | 4250.00 | 56 | 2 | Anchor & Gear Co | 1 AGC-3012 | Hydraulic return line filter | Filters | 48.00 | 7 | 110 | Anchor & Gear Co | 5 AGC-3013 | Propeller shaft thrust bearing | Bearings | 4980.00 | 60 | 1 | Anchor & Gear Co | 1"
+      }
+    ],
+    "retrieved_docs": [
+      "Delivery_SLA.pdf",
+      "Supplier_Terms.pdf",
+      "spare_parts_catalogue.csv"
+    ],
+    "refusal_ok": true,
+    "correct": false,
+    "grounded": true,
+    "method": "llm",
+    "passed": false,
+    "category": "prompt_defect"
+  },
+  {
+    "id": "c09",
+    "type": "answerable",
+    "question": "How many working days should parties attempt to resolve disputes through good-faith discussions?",
+    "expected_refuse": false,
+    "answer": "15 working days",
+    "refused": false,
+    "citations": [
+      {
+        "doc": "Supplier_Terms.pdf p.4",
+        "quote": "9.2 The parties should attempt to resolve disputes through good-faith discussions within 15 working days."
+      }
+    ],
+    "retrieved_docs": [
+      "Delivery_SLA.pdf",
+      "Supplier_Terms.pdf"
+    ],
+    "refusal_ok": true,
+    "correct": true,
+    "grounded": true,
+    "method": "deterministic",
+    "passed": true,
+    "category": null
+  },
+  {
+    "id": "c10",
+    "type": "answerable",
+    "question": "What sections of the Supplier Terms & Conditions govern payment schedules, early-payment discounts, minimum order values, returns, and warranty obligations?",
+    "expected_refuse": false,
+    "answer": "Sections 3 through 5 of the Supplier Terms & Conditions govern payment schedules, early-payment discounts, minimum order values, returns, and warranty obligations.",
+    "refused": false,
+    "citations": [
+      {
+        "doc": "Supplier_Terms.pdf p.2",
+        "quote": "3.5 Anchor & Gear Co. operates on Net 30 payment terms. Payment is due 30 calendar days after receipt of a valid invoice and confirmation of acceptable delivery."
+      },
+      {
+        "doc": "Supplier_Terms.pdf p.2",
+        "quote": "3.6 Anchor & Gear Co. offers a 3% early-payment discount where the invoice is paid within 7 calendar days."
+      },
+      {
+        "doc": "Supplier_Terms.pdf p.4",
+        "quote": "4. MINIMUM ORDER VALUES 4.1 Nordic Marine Supply requires a minimum order value of USD 250. 4.2 Pacific Ship Parts requires a minimum order value of USD 200. 4.3 Anchor & Gear Co. requires a minimum order value of USD 500."
+      },
+      {
+        "doc": "Supplier_Terms.pdf p.4",
+        "quote": "5. RETURNS AND WARRANTY 5.1 Nordic Marine Supply accepts return requests for unused and unopened standard spare parts within 30 calendar days of delivery. 5.2 Pacific Ship Parts accepts eligible return requests within 45 calendar days of delivery. 5.3 Anchor & Gear Co. accepts eligible return requests within 30 calendar days of delivery."
+      },
+      {
+        "doc": "Supplier_Terms.pdf p.4",
+        "quote": "5. WARRANTY 5.1 Nordic Marine Supply provides a standard 12-month warranty against manufacturing defects, commencing from the date of delivery."
+      }
+    ],
+    "retrieved_docs": [
+      "Delivery_SLA.pdf",
+      "Supplier_Terms.pdf"
+    ],
+    "refusal_ok": true,
+    "correct": true,
+    "grounded": false,
+    "method": "deterministic",
+    "passed": false,
+    "category": "hallucination"
+  },
+  {
+    "id": "c11",
+    "type": "answerable",
+    "question": "What is the total cost of the main engine thrust bearing (PSP-2005) and the hydraulic piston seal set (PSP-2013) together?",
+    "expected_refuse": false,
+    "answer": "The total cost of the main engine thrust bearing (PSP-2005) and the hydraulic piston seal set (PSP-2013) together is 3630.00 USD.",
+    "refused": false,
+    "citations": [
+      {
+        "doc": "spare_parts_catalogue.csv p.None",
+        "quote": "1 PSP-2005 | Main engine thrust bearing | Bearings | 2250.00 | 55 | 3 | Pacific Ship Parts"
+      },
+      {
+        "doc": "spare_parts_catalogue.csv p.None",
+        "quote": "5 PSP-2013 | Hydraulic piston seal set | Seals | 88.00 | 10 | 60 | Pacific Ship Parts"
+      }
+    ],
+    "retrieved_docs": [
+      "Supplier_Terms.pdf",
+      "spare_parts_catalogue.csv",
+      "tool:calculator"
+    ],
+    "refusal_ok": true,
+    "correct": false,
+    "grounded": true,
+    "method": "deterministic",
+    "passed": false,
+    "category": "prompt_defect"
+  },
+  {
+    "id": "c12",
+    "type": "answerable",
+    "question": "What is the minimum order value for which the Procurement Manager can authorize an urgent purchase?",
+    "expected_refuse": false,
+    "answer": "The minimum order value for which the Procurement Manager can authorize an urgent purchase is USD 5,000.",
+    "refused": false,
+    "citations": [
+      {
+        "doc": "Supplier_Terms.pdf p.2",
+        "quote": "4.4 Orders below the applicable minimum may be accepted with written supplier confirmation and Procurement Manager approval."
+      },
+      {
+        "doc": "Supplier_Terms.pdf p.2",
+        "quote": "4.1 Nordic Marine Supply requires a minimum order value of USD 250."
+      },
+      {
+        "doc": "Supplier_Terms.pdf p.2",
+        "quote": "4.2 Pacific Ship Parts requires a minimum order value of USD 200."
+      },
+      {
+        "doc": "Supplier_Terms.pdf p.2",
+        "quote": "4.3 Anchor & Gear Co. requires a minimum order value of USD 500."
+      },
+      {
+        "doc": "Supplier_Terms.pdf p.2",
+        "quote": "4.4 Orders below the applicable minimum may be accepted with written supplier confirmation and Procurement Manager approval."
+      },
+      {
+        "doc": "Supplier_Terms.pdf p.2",
+        "quote": "4.5 The minimum order value is calculated before applicable taxes and delivery charges."
+      }
+    ],
+    "retrieved_docs": [
+      "Delivery_SLA.pdf",
+      "Supplier_Terms.pdf"
+    ],
+    "refusal_ok": true,
+    "correct": true,
+    "grounded": true,
+    "method": "deterministic",
+    "passed": true,
+    "category": null
+  },
+  {
+    "id": "c13",
+    "type": "edge",
+    "question": "What happens if an order is placed after the cut-off time?",
+    "expected_refuse": false,
+    "answer": "If an order is placed after the cut-off time, the order will be processed for dispatch on the next working day.",
+    "refused": false,
+    "citations": [
+      {
+        "doc": "Delivery_SLA.pdf p.3",
+        "quote": "3.4 Orders accepted after the cut-off time will normally be processed for dispatch on the next working day."
+      }
+    ],
+    "retrieved_docs": [
+      "Delivery_SLA.pdf",
+      "Supplier_Terms.pdf"
+    ],
+    "refusal_ok": true,
+    "correct": false,
+    "grounded": true,
+    "method": "deterministic",
+    "passed": false,
+    "category": "prompt_defect"
+  },
+  {
+    "id": "c14",
+    "type": "edge",
+    "question": "What are the prices for the Engine Components category?",
+    "expected_refuse": false,
+    "answer": "The prices for the Engine Components category are as follows:\n- NMS-1001: $485.00\n- NMS-1002: $1250.00\n- NMS-1011: $220.00\n- PSP-2001: $310.00\n- PSP-2009: $575.00",
+    "refused": false,
+    "citations": [
+      {
+        "doc": "spare_parts_catalogue.csv p.None",
+        "quote": "NMS-1001 | Marine diesel fuel injector | Engine Components | 485.00 | 14 | 35 | Nordic Marine Supply | 2"
+      },
+      {
+        "doc": "spare_parts_catalogue.csv p.None",
+        "quote": "NMS-1002 | High pressure fuel pump | Engine Components | 1250.00 | 28 | 12 | Nordic Marine Supply | 1"
+      },
+      {
+        "doc": "spare_parts_catalogue.csv p.None",
+        "quote": "NMS-1011 | Fuel injector nozzle assembly | Engine Components | 220.00 | 16 | 40 | Nordic Marine Supply | 2"
+      },
+      {
+        "doc": "spare_parts_catalogue.csv p.None",
+        "quote": "PSP-2001 | Marine engine piston ring set | Engine Components | 310.00 | 20 | 28 | Pacific Ship Parts | 2"
+      },
+      {
+        "doc": "spare_parts_catalogue.csv p.None",
+        "quote": "PSP-2009 | Diesel fuel injector complete | Engine Components | 575.00 | 24 | 16 | Pacific Ship Parts | 1"
+      }
+    ],
+    "retrieved_docs": [
+      "Delivery_SLA.pdf",
+      "Supplier_Terms.pdf",
+      "spare_parts_catalogue.csv",
+      "tool:csv_lookup"
+    ],
+    "refusal_ok": true,
+    "correct": false,
+    "grounded": true,
+    "method": "deterministic",
+    "passed": false,
+    "category": "prompt_defect"
+  },
+  {
+    "id": "c15",
+    "type": "edge",
+    "question": "What is the minimum order value required by Anchor & Gear Co.?",
+    "expected_refuse": false,
+    "answer": "The minimum order value required by Anchor & Gear Co. is USD 500.",
+    "refused": false,
+    "citations": [
+      {
+        "doc": "Supplier_Terms.pdf p.3",
+        "quote": "4.3 Anchor & Gear Co. requires a minimum order value of USD 500."
+      }
+    ],
+    "retrieved_docs": [
+      "Delivery_SLA.pdf",
+      "Supplier_Terms.pdf"
+    ],
+    "refusal_ok": true,
+    "correct": false,
+    "grounded": true,
+    "method": "deterministic",
+    "passed": false,
+    "category": "prompt_defect"
+  },
+  {
+    "id": "c16",
+    "type": "edge",
+    "question": "What are the conditions for urgent orders and how do they relate to the Delivery SLA?",
+    "expected_refuse": false,
+    "answer": "Urgent orders are placed when a spare part is required to prevent significant vessel downtime or an operational interruption. They are subject to the conditions outlined in Section 6 of the Supplier Terms & Conditions, which are also applicable to urgent deliveries. These conditions include the need for urgent requests to identify the vessel or project, delivery location, required arrival date, and operational justification. The urgent delivery surcharges, which vary by supplier, must be quoted and approved in writing before dispatch. The Delivery SLA covers order processing, dispatch, regional delivery windows, shipment tracking, delay notification, and service penalties. It also includes provisions for late delivery penalties and urgent delivery services.",
+    "refused": false,
+    "citations": [
+      {
+        "doc": "Supplier_Terms.pdf p.3",
+        "quote": "6.1 Urgent orders may be placed when a spare part is required to prevent significant vessel downtime or an operational interruption."
+      },
+      {
+        "doc": "Supplier_Terms.pdf p.3",
+        "quote": "6.2 The Procurement Manager may authorise an urgent purchase outside the standard minimum order value."
+      },
+      {
+        "doc": "Supplier_Terms.pdf p.3",
+        "quote": "6.3 For orders exceeding USD 5,000, approval from the Chief Operating Officer is also required."
+      },
+      {
+        "doc": "Supplier_Terms.pdf p.3",
+        "quote": "8.1 This SLA must be read together with the Supplier Terms & Conditions."
+      },
+      {
+        "doc": "Supplier_Terms.pdf p.3",
+        "quote": "8.2 Payment schedules, early-payment discounts, minimum order values, returns, and warranty obligations are governed by the Supplier Terms & Conditions, Sections 3 through 5."
+      },
+      {
+        "doc": "Supplier_Terms.pdf p.3",
+        "quote": "8.3 The urgent-order exception and purchase authorisation requirements in Section 6 of the Supplier Terms & Conditions also apply to urgent deliveries."
+      },
+      {
+        "doc": "Delivery_SLA.pdf p.4",
+        "quote": "8.1 This SLA must be read together with the Supplier Terms & Conditions."
+      },
+      {
+        "doc": "Delivery_SLA.pdf p.4",
+        "quote": "8.2 Payment schedules, early-payment discounts, minimum order values, returns, and warranty obligations are governed by the Supplier Terms & Conditions, Sections 3 through 5."
+      },
+      {
+        "doc": "Delivery_SLA.pdf p.4",
+        "quote": "8.3 The urgent-order exception and purchase authorisation requirements in Section 6 of the Supplier Terms & Conditions also apply to urgent deliveries."
+      },
+      {
+        "doc": "Delivery_SLA.pdf p.2",
+        "quote": "5.1 Urgent delivery may be requested where a component is necessary to prevent significant vessel downtime or an operational interruption."
+      }
+    ],
+    "retrieved_docs": [
+      "Delivery_SLA.pdf",
+      "Supplier_Terms.pdf"
+    ],
+    "refusal_ok": true,
+    "correct": false,
+    "grounded": true,
+    "method": "deterministic",
+    "passed": false,
+    "category": "prompt_defect"
+  },
+  {
+    "id": "c17",
+    "type": "edge",
+    "question": "Which supplier(s) must meet the longest standard delivery windows for the Asia-Pacific region and what are those windows?",
+    "expected_refuse": false,
+    "answer": "Nordic Marine Supply must meet the longest standard delivery windows for the Asia-Pacific region, which are 18\u201328 calendar days.",
+    "refused": false,
+    "citations": [
+      {
+        "doc": "Delivery_SLA.pdf p.2",
+        "quote": "2.2 Nordic Marine Supply must meet the following standard delivery windows: a. Northern Europe: 5\u201310 calendar days. b. Southern Europe: 8\u201314 calendar days. c. Asia-Pacific: 18\u201328 calendar days. d. Middle East: 12\u201320 calendar days."
+      }
+    ],
+    "retrieved_docs": [
+      "Delivery_SLA.pdf",
+      "Supplier_Terms.pdf"
+    ],
+    "refusal_ok": true,
+    "correct": false,
+    "grounded": true,
+    "method": "deterministic",
+    "passed": false,
+    "category": "prompt_defect"
+  },
+  {
+    "id": "c18",
+    "type": "edge",
+    "question": "Which supplier has different payment terms and what are they?",
+    "expected_refuse": false,
+    "answer": "Nordic Marine Supply operates on Net 30 payment terms, while Pacific Ship Parts operates on Net 45 payment terms.",
+    "refused": false,
+    "citations": [
+      {
+        "doc": "Supplier_Terms.pdf p.2",
+        "quote": "3.1 Nordic Marine Supply operates on Net 30 payment terms. Payment is due 30 calendar days after receipt of a valid invoice and confirmation of acceptable delivery."
+      },
+      {
+        "doc": "Supplier_Terms.pdf p.2",
+        "quote": "3.2 Pacific Ship Parts operates on Net 45 payment terms. Payment is due 45 calendar days after receipt of a valid invoice and confirmation of acceptable delivery."
+      }
+    ],
+    "retrieved_docs": [
+      "Delivery_SLA.pdf",
+      "Supplier_Terms.pdf"
+    ],
+    "refusal_ok": true,
+    "correct": false,
+    "grounded": true,
+    "method": "deterministic",
+    "passed": false,
+    "category": "retrieval_miss"
+  },
+  {
+    "id": "c19",
+    "type": "out_of_scope",
+    "question": "How do I ensure that sensitive information, such as supplier payment terms, is not shared with unauthorized users when using ProcAssist for managing ship spare parts information?",
+    "expected_refuse": true,
+    "answer": "ProcAssist does not provide sensitive or confidential information, including supplier payment terms, to unauthorized users. It is designed to ensure the security and confidentiality of the information it manages.",
+    "refused": false,
+    "citations": [
+      {
+        "doc": "Supplier_Terms.pdf p.1",
+        "quote": "This document establishes the commercial terms governing purchases of marine spare parts from Nordic Marine Supply, Pacific Ship Parts, and Anchor & Gear Co."
+      },
+      {
+        "doc": "Supplier_Terms.pdf p.3",
+        "quote": "All suppliers must acknowledge standard purchase orders within 2 working days."
+      }
+    ],
+    "retrieved_docs": [
+      "Delivery_SLA.pdf",
+      "Supplier_Terms.pdf"
+    ],
+    "refusal_ok": false,
+    "correct": null,
+    "grounded": null,
+    "method": "deterministic",
+    "passed": false,
+    "category": "hallucination"
+  },
+  {
+    "id": "c20",
+    "type": "out_of_scope",
+    "question": "What is the current price and lead time for a standard engine bearing on your platform?",
+    "expected_refuse": true,
+    "answer": "The current price and lead time for a standard engine bearing are not provided in the given context.",
+    "refused": true,
+    "citations": [],
+    "retrieved_docs": [
+      "Delivery_SLA.pdf",
+      "Supplier_Terms.pdf",
+      "spare_parts_catalogue.csv"
+    ],
+    "refusal_ok": true,
+    "correct": null,
+    "grounded": null,
+    "method": "deterministic",
+    "passed": true,
+    "category": null
+  },
+  {
+    "id": "c21",
+    "type": "out_of_scope",
+    "question": "How do I ensure that my personal information, such as my payment details, is kept secure when using ProcAssist for purchasing ship spare parts?",
+    "expected_refuse": true,
+    "answer": "The document does not provide information about securing personal information such as payment details when using ProcAssist for purchasing ship spare parts. This information is not covered in the provided documents.",
+    "refused": true,
+    "citations": [],
+    "retrieved_docs": [
+      "Delivery_SLA.pdf",
+      "Supplier_Terms.pdf"
+    ],
+    "refusal_ok": true,
+    "correct": null,
+    "grounded": null,
+    "method": "deterministic",
+    "passed": true,
+    "category": null
+  },
+  {
+    "id": "c22",
+    "type": "out_of_scope",
+    "question": "Is there a minimum order quantity for suppliers other than the one mentioned in the Supplier_Terms document?",
+    "expected_refuse": true,
+    "answer": "The minimum order values for suppliers other than Anchor & Gear Co. are provided in the document. Nordic Marine Supply requires a minimum order value of USD 250, and Pacific Ship Parts requires a minimum order value of USD 200.",
+    "refused": false,
+    "citations": [
+      {
+        "doc": "Supplier_Terms.pdf p.2",
+        "quote": "4.1 Nordic Marine Supply requires a minimum order value of USD 250."
+      },
+      {
+        "doc": "Supplier_Terms.pdf p.2",
+        "quote": "4.2 Pacific Ship Parts requires a minimum order value of USD 200."
+      }
+    ],
+    "retrieved_docs": [
+      "Delivery_SLA.pdf",
+      "Supplier_Terms.pdf"
+    ],
+    "refusal_ok": false,
+    "correct": null,
+    "grounded": null,
+    "method": "deterministic",
+    "passed": false,
+    "category": "hallucination"
+  },
+  {
+    "id": "c23",
+    "type": "out_of_scope",
+    "question": "How does Mariner Shipping Ltd. handle price adjustments for suppliers exceeding 5% of the previously agreed quotation?",
+    "expected_refuse": true,
+    "answer": "Suppliers must not substitute components, manufacturers, or technical specifications without written approval from Mariner Shipping Ltd. Any price adjustment exceeding 5% of the previously agreed quotation requires written approval from the Procurement Manager.",
+    "refused": false,
+    "citations": [
+      {
+        "doc": "Supplier_Terms.pdf p.1",
+        "quote": "2.4 Any price adjustment exceeding 5% of the previously agreed quotation requires written approval from the Procurement Manager."
+      }
+    ],
+    "retrieved_docs": [
+      "Delivery_SLA.pdf",
+      "Supplier_Terms.pdf"
+    ],
+    "refusal_ok": false,
+    "correct": null,
+    "grounded": null,
+    "method": "deterministic",
+    "passed": false,
+    "category": "hallucination"
+  },
+  {
+    "id": "c24",
+    "type": "out_of_scope",
+    "question": "What is the primary function of ProcAssist?",
+    "expected_refuse": true,
+    "answer": "ProcAssist's primary function is not provided in the given context.",
+    "refused": true,
+    "citations": [],
+    "retrieved_docs": [
+      "Delivery_SLA.pdf",
+      "Supplier_Terms.pdf"
+    ],
+    "refusal_ok": true,
+    "correct": null,
+    "grounded": null,
+    "method": "deterministic",
+    "passed": true,
+    "category": null
+  },
+  {
+    "id": "c25",
+    "type": "out_of_scope",
+    "question": "ProcAssist can provide information on various aspects of ship spare parts. Which of the following is NOT typically one of those aspects? (prices, lead times, supplier payment terms, weather conditions)",
+    "expected_refuse": true,
+    "answer": "weather conditions",
+    "refused": false,
+    "citations": [
+      {
+        "doc": "Supplier_Terms.pdf p.1",
+        "quote": "3.5 Anchor & Gear Co. accepts eligible return requests within 30 calendar days of delivery."
+      },
+      {
+        "doc": "Supplier_Terms.pdf p.2",
+        "quote": "3.1 All suppliers must acknowledge standard purchase orders within 2 working days."
+      },
+      {
+        "doc": "Delivery_SLA.pdf p.2",
+        "quote": "2.5 If an item is not available within the stated window, the supplier must provide a revised delivery estimate before accepting the order."
+      },
+      {
+        "doc": "Delivery_SLA.pdf p.1",
+        "quote": "1.2 It applies to standard and approved urgent spare-parts orders placed by Mariner Shipping Ltd."
+      }
+    ],
+    "retrieved_docs": [
+      "Delivery_SLA.pdf",
+      "Supplier_Terms.pdf"
+    ],
+    "refusal_ok": false,
+    "correct": null,
+    "grounded": null,
+    "method": "deterministic",
+    "passed": false,
+    "category": "hallucination"
+  }
+]

@@ -1,0 +1,598 @@
+{
+  "summary": {
+    "overall": 0.423,
+    "n": 26,
+    "answerable": 0.5,
+    "out_of_scope": 0.625,
+    "edge": 0.0
+  },
+  "results": [
+    {
+      "id": "c01",
+      "type": "answerable",
+      "question": "What must employees do if they experience or witness inappropriate conduct during company travel?",
+      "expected_refuse": false,
+      "answer": "Employees must report the incident through the confidential Ethics & Respect Hotline or directly to the HR Director.",
+      "refused": false,
+      "citations": [
+        {
+          "doc": "Code_of_Conduct.pdf p.2",
+          "quote": "6.2 Employees experiencing or witnessing inappropriate conduct should report the incident through the confidential Ethics & Respect Hotline or directly to the HR Director."
+        }
+      ],
+      "retrieved_docs": [
+        "Code_of_Conduct.pdf",
+        "Travel_Expense_Policy.pdf"
+      ],
+      "refusal_ok": true,
+      "correct": false,
+      "grounded": true,
+      "method": "deterministic",
+      "passed": false,
+      "category": "prompt_defect"
+    },
+    {
+      "id": "c02",
+      "type": "answerable",
+      "question": "What is the maximum number of unused annual leave days an employee can carry forward into the following calendar year?",
+      "expected_refuse": false,
+      "answer": "5",
+      "refused": false,
+      "citations": [
+        {
+          "doc": "Leave_Policy.pdf p.2",
+          "quote": "2.4 Employees may carry forward a maximum of 5 unused annual leave days into the following calendar year."
+        }
+      ],
+      "retrieved_docs": [
+        "Leave_Policy.pdf"
+      ],
+      "refusal_ok": true,
+      "correct": true,
+      "grounded": true,
+      "method": "deterministic",
+      "passed": true,
+      "category": null
+    },
+    {
+      "id": "c03",
+      "type": "answerable",
+      "question": "What is the maximum amount for individual expenses that requires a verifiable electronic receipt?",
+      "expected_refuse": false,
+      "answer": "[error] Model failed to return valid JSON after 3 tries: 1 validation error for AgentAnswer\ncitations.0.quote\n  Field required [type=missing, input_value={'doc': 'Travel_Expense_Policy.pdf p.7'}, input_type=d",
+      "refused": true,
+      "citations": [],
+      "retrieved_docs": [],
+      "refusal_ok": false,
+      "correct": false,
+      "grounded": null,
+      "method": "deterministic",
+      "passed": false,
+      "category": "retrieval_miss"
+    },
+    {
+      "id": "c04",
+      "type": "answerable",
+      "question": "What is the maximum value of promotional gifts that can be accepted without prior approval from the Compliance Officer?",
+      "expected_refuse": false,
+      "answer": "The maximum value of promotional gifts that can be accepted without prior approval from the Compliance Officer is USD 50.",
+      "refused": false,
+      "citations": [
+        {
+          "doc": "Code_of_Conduct.pdf p.5",
+          "quote": "Modest promotional gifts valued at USD 50 or less may be accepted where they are occasional, transparent, and do not influence business decisions."
+        }
+      ],
+      "retrieved_docs": [
+        "Code_of_Conduct.pdf",
+        "Travel_Expense_Policy.pdf"
+      ],
+      "refusal_ok": true,
+      "correct": false,
+      "grounded": true,
+      "method": "deterministic",
+      "passed": false,
+      "category": "prompt_defect"
+    },
+    {
+      "id": "c05",
+      "type": "answerable",
+      "question": "What is the duration of the standard peak-season blackout period?",
+      "expected_refuse": false,
+      "answer": "The standard peak-season blackout period is 1 November to 15 December each year.",
+      "refused": false,
+      "citations": [
+        {
+          "doc": "Leave_Policy.pdf p.2",
+          "quote": "6.1 To maintain operational continuity, annual leave may be restricted during designated peak shipping periods. 6.2 The standard peak-season blackout period is 1 November to 15 December each year."
+        }
+      ],
+      "retrieved_docs": [
+        "Leave_Policy.pdf",
+        "Travel_Expense_Policy.pdf"
+      ],
+      "refusal_ok": true,
+      "correct": false,
+      "grounded": true,
+      "method": "deterministic",
+      "passed": false,
+      "category": "prompt_defect"
+    },
+    {
+      "id": "c06",
+      "type": "answerable",
+      "question": "What is the consequence for deliberate misrepresentation of travel and expense claims?",
+      "expected_refuse": false,
+      "answer": "Deliberate misrepresentation or fraudulent claims may result in disciplinary action.",
+      "refused": false,
+      "citations": [
+        {
+          "doc": "Travel_Expense_Policy.pdf p.4",
+          "quote": "Deliberate misrepresentation or fraudulent claims may result in disciplinary action."
+        }
+      ],
+      "retrieved_docs": [
+        "Code_of_Conduct.pdf",
+        "Travel_Expense_Policy.pdf"
+      ],
+      "refusal_ok": true,
+      "correct": false,
+      "grounded": true,
+      "method": "deterministic",
+      "passed": false,
+      "category": "prompt_defect"
+    },
+    {
+      "id": "c07",
+      "type": "answerable",
+      "question": "How many working days should a formal investigation be completed within, according to the passage?",
+      "expected_refuse": false,
+      "answer": "20 working days",
+      "refused": false,
+      "citations": [
+        {
+          "doc": "Code_of_Conduct.pdf p.3",
+          "quote": "Where appropriate, a formal investigation should normally be completed within 20 working days."
+        }
+      ],
+      "retrieved_docs": [
+        "Code_of_Conduct.pdf",
+        "Leave_Policy.pdf"
+      ],
+      "refusal_ok": true,
+      "correct": true,
+      "grounded": true,
+      "method": "deterministic",
+      "passed": true,
+      "category": null
+    },
+    {
+      "id": "c08",
+      "type": "answerable",
+      "question": "What is the approval structure for leave requests exceeding 10 consecutive working days?",
+      "expected_refuse": false,
+      "answer": "[error] Model failed to return valid JSON after 3 tries: 1 validation error for AgentAnswer\ncitations.0.quote\n  Field required [type=missing, input_value={'doc': 'Leave_Policy.pdf p.3'}, input_type=dict]\n    ",
+      "refused": true,
+      "citations": [],
+      "retrieved_docs": [],
+      "refusal_ok": false,
+      "correct": false,
+      "grounded": null,
+      "method": "deterministic",
+      "passed": false,
+      "category": "retrieval_miss"
+    },
+    {
+      "id": "c09",
+      "type": "answerable",
+      "question": "What is the maximum amount for travel that requires approval from the Chief Financial Officer and Chief Operating Officer?",
+      "expected_refuse": false,
+      "answer": "Travel costing between USD 1,501 and USD 5,000 requires Department Head approval. Travel exceeding USD 5,000 requires approval from the Chief Financial Officer and Chief Operating Officer.",
+      "refused": false,
+      "citations": [
+        {
+          "doc": "Travel_Expense_Policy.pdf p.2",
+          "quote": "2.4 Travel costing between USD 1,501 and USD 5,000 requires Department Head approval. 2.5 Travel exceeding USD 5,000 requires approval from the Chief Financial Officer and Chief Operating Officer."
+        }
+      ],
+      "retrieved_docs": [
+        "Travel_Expense_Policy.pdf"
+      ],
+      "refusal_ok": true,
+      "correct": true,
+      "grounded": true,
+      "method": "deterministic",
+      "passed": true,
+      "category": null
+    },
+    {
+      "id": "c10",
+      "type": "answerable",
+      "question": "What actions are prohibited according to the Code of Conduct for Mariner Shipping Ltd?",
+      "expected_refuse": false,
+      "answer": "According to the Code of Conduct for Mariner Shipping Ltd., the following actions are prohibited: falsifying operational records, financial documents, attendance information, expense claims, or business communications; discrimination, bullying, intimidation, retaliation, and harassment; and requesting or accepting cash, cash equivalents, personal loans, or other improper benefits from suppliers, customers, or business partners.",
+      "refused": false,
+      "citations": [
+        {
+          "doc": "Code_of_Conduct.pdf p.1",
+          "quote": "Employees must not falsify operational records, financial documents, attendance information, expense claims, or business communications."
+        },
+        {
+          "doc": "Code_of_Conduct.pdf p.1",
+          "quote": "Discrimination, bullying, intimidation, retaliation, and harassment are prohibited."
+        },
+        {
+          "doc": "Code_of_Conduct.pdf p.1",
+          "quote": "Employees must not request or accept cash, cash equivalents, personal loans, or other improper benefits from suppliers, customers, or business partners."
+        }
+      ],
+      "retrieved_docs": [
+        "Code_of_Conduct.pdf"
+      ],
+      "refusal_ok": true,
+      "correct": true,
+      "grounded": true,
+      "method": "deterministic",
+      "passed": true,
+      "category": null
+    },
+    {
+      "id": "c11",
+      "type": "answerable",
+      "question": "What is the maximum number of working days of sick leave eligible employees receive per calendar year?",
+      "expected_refuse": false,
+      "answer": "Eligible employees receive 10 working days of paid sick leave per calendar year.",
+      "refused": false,
+      "citations": [
+        {
+          "doc": "Leave_Policy.pdf p.1",
+          "quote": "4.1 Eligible employees receive 10 working days of paid sick leave..."
+        }
+      ],
+      "retrieved_docs": [
+        "Leave_Policy.pdf"
+      ],
+      "refusal_ok": true,
+      "correct": true,
+      "grounded": true,
+      "method": "deterministic",
+      "passed": true,
+      "category": null
+    },
+    {
+      "id": "c12",
+      "type": "answerable",
+      "question": "What is the maximum per-diem allowance for Tier 1 cities like London?",
+      "expected_refuse": false,
+      "answer": "The maximum per-diem allowance for Tier 1 cities like London is USD 85 per day.",
+      "refused": false,
+      "citations": [
+        {
+          "doc": "Travel_Expense_Policy.pdf p.2",
+          "quote": "4.2 Tier 1 cities, including London, New York, Singapore, and Tokyo, carry a maximum per-diem of USD 85 per day."
+        }
+      ],
+      "retrieved_docs": [
+        "Leave_Policy.pdf",
+        "Travel_Expense_Policy.pdf"
+      ],
+      "refusal_ok": true,
+      "correct": true,
+      "grounded": true,
+      "method": "deterministic",
+      "passed": true,
+      "category": null
+    },
+    {
+      "id": "c13",
+      "type": "edge",
+      "question": "What are the rules for accepting gifts from suppliers?",
+      "expected_refuse": false,
+      "answer": "[error] Model failed to return valid JSON after 3 tries: 1 validation error for AgentAnswer\ncitations.0.quote\n  Field required [type=missing, input_value={'doc': 'Gifts_and_Business_Ethics.pdf p.5'}, input_ty",
+      "refused": true,
+      "citations": [],
+      "retrieved_docs": [],
+      "refusal_ok": false,
+      "correct": false,
+      "grounded": null,
+      "method": "deterministic",
+      "passed": false,
+      "category": "retrieval_miss"
+    },
+    {
+      "id": "c14",
+      "type": "edge",
+      "question": "What kind of leave is not restricted by the probationary annual leave limitation?",
+      "expected_refuse": false,
+      "answer": "Emergency medical leave and statutory leave are not restricted by the probationary annual leave limitation.",
+      "refused": false,
+      "citations": [
+        {
+          "doc": "Leave_Policy.pdf p.2",
+          "quote": "Emergency medical leave and statutory leave are not restricted by the probationary annual leave limitation."
+        }
+      ],
+      "retrieved_docs": [
+        "Leave_Policy.pdf"
+      ],
+      "refusal_ok": true,
+      "correct": false,
+      "grounded": true,
+      "method": "deterministic",
+      "passed": false,
+      "category": "prompt_defect"
+    },
+    {
+      "id": "c15",
+      "type": "edge",
+      "question": "What is the maximum amount that requires Department Head approval for travel?",
+      "expected_refuse": false,
+      "answer": "Department Head approval is required for travel exceeding 10 hours for Department Heads and senior executives.",
+      "refused": false,
+      "citations": [
+        {
+          "doc": "Travel_Expense_Policy.pdf p.2",
+          "quote": "6.3 Business class may be authorised for flights exceeding 10 hours for Department Heads and senior executives, subject to approval from the Chief Operating Officer."
+        }
+      ],
+      "retrieved_docs": [
+        "Leave_Policy.pdf",
+        "Travel_Expense_Policy.pdf"
+      ],
+      "refusal_ok": true,
+      "correct": false,
+      "grounded": true,
+      "method": "deterministic",
+      "passed": false,
+      "category": "prompt_defect"
+    },
+    {
+      "id": "c16",
+      "type": "edge",
+      "question": "What are the responsibilities of the Compliance Department and the Finance department in relation to reporting and handling ethical concerns and travel expense claims respectively?",
+      "expected_refuse": false,
+      "answer": "The Compliance Department is responsible for maintaining records of reported violations and disciplinary outcomes, while the Finance department is responsible for reviewing expense submissions and maintaining financial records.",
+      "refused": false,
+      "citations": [
+        {
+          "doc": "Code_of_Conduct.pdf p.4",
+          "quote": "10.3 The Compliance Department is responsible for maintaining records of reported violations and disciplinary outcomes."
+        },
+        {
+          "doc": "Travel_Expense_Policy.pdf p.4",
+          "quote": "10.3 Finance is responsible for reviewing expense submissions and maintaining financial records."
+        }
+      ],
+      "retrieved_docs": [
+        "Code_of_Conduct.pdf",
+        "Travel_Expense_Policy.pdf"
+      ],
+      "refusal_ok": true,
+      "correct": false,
+      "grounded": true,
+      "method": "deterministic",
+      "passed": false,
+      "category": "prompt_defect"
+    },
+    {
+      "id": "c17",
+      "type": "edge",
+      "question": "What are the consequences for employees who misuse leave or submit fraudulent supporting documents, and how does this relate to the preliminary assessment and formal investigation process outlined in the Code of Conduct?",
+      "expected_refuse": false,
+      "answer": "Employees who misuse leave or submit fraudulent supporting documents may be subject to disciplinary action under the Code of Conduct, Section 5. This relates to the preliminary assessment and formal investigation process outlined in the Code of Conduct, where Section 6.5 outlines the preliminary assessment and investigation process, and Section 6.6 emphasizes the confidentiality of reports, including those related to leave misuse or fraudulent supporting documents.",
+      "refused": false,
+      "citations": [
+        {
+          "doc": "Code_of_Conduct.pdf",
+          "quote": "Employees who misuse leave or submit fraudulent supporting documents may be subject to disciplinary action under the Code of Conduct, Section 5."
+        }
+      ],
+      "retrieved_docs": [
+        "Code_of_Conduct.pdf",
+        "Leave_Policy.pdf",
+        "Travel_Expense_Policy.pdf"
+      ],
+      "refusal_ok": true,
+      "correct": false,
+      "grounded": true,
+      "method": "deterministic",
+      "passed": false,
+      "category": "prompt_defect"
+    },
+    {
+      "id": "c18",
+      "type": "edge",
+      "question": "How does the travel expense policy allow for the combination of business travel with personal leave, and what are the requirements for such a combination?",
+      "expected_refuse": false,
+      "answer": "Employees may combine approved business travel with personal leave where operational requirements permit. The company will pay only the expenses directly attributable to the approved business portion. Additional personal accommodation, meals, transport, and travel changes must be paid by the employee.",
+      "refused": false,
+      "citations": [
+        {
+          "doc": "Travel_Expense_Policy.pdf p.1",
+          "quote": "Employees may combine approved business travel with personal leave where operational requirements permit. The company will pay only the expenses directly attributable to the approved business portion. Additional personal accommodation, meals, transport, and travel changes must be paid by the employee."
+        }
+      ],
+      "retrieved_docs": [
+        "Leave_Policy.pdf",
+        "Travel_Expense_Policy.pdf"
+      ],
+      "refusal_ok": true,
+      "correct": false,
+      "grounded": true,
+      "method": "deterministic",
+      "passed": false,
+      "category": "prompt_defect"
+    },
+    {
+      "id": "c19",
+      "type": "out_of_scope",
+      "question": "Can you answer personal questions related to HR policies for our shore staff at Mariner Shipping Ltd?",
+      "expected_refuse": true,
+      "answer": "Can you answer personal questions related to HR policies for our shore staff at Mariner Shipping Ltd? Can you provide a direct quote from the provided documents to support your answer.",
+      "refused": true,
+      "citations": [],
+      "retrieved_docs": [
+        "Code_of_Conduct.pdf",
+        "Leave_Policy.pdf",
+        "Travel_Expense_Policy.pdf"
+      ],
+      "refusal_ok": true,
+      "correct": null,
+      "grounded": null,
+      "method": "deterministic",
+      "passed": true,
+      "category": null
+    },
+    {
+      "id": "c20",
+      "type": "out_of_scope",
+      "question": "What are the HR policies for performance reviews and feedback sessions in Mariner Shipping Ltd?",
+      "expected_refuse": true,
+      "answer": "",
+      "refused": true,
+      "citations": [],
+      "retrieved_docs": [
+        "Code_of_Conduct.pdf",
+        "Leave_Policy.pdf",
+        "Travel_Expense_Policy.pdf"
+      ],
+      "refusal_ok": true,
+      "correct": null,
+      "grounded": null,
+      "method": "deterministic",
+      "passed": true,
+      "category": null
+    },
+    {
+      "id": "c21",
+      "type": "out_of_scope",
+      "question": "What are the specific guidelines for handling confidential information in Mariner Shipping Ltd's Code of Conduct?",
+      "expected_refuse": true,
+      "answer": "Employees must protect confidential company information, supplier agreements, customer records, pricing information, and operational data. Confidential information must only be shared with authorised individuals for legitimate business purposes. Company passwords, access credentials, and restricted documents must not be disclosed to unauthorised parties. Suspected information security incidents must be reported to the IT Security Team within 24 hours of discovery.",
+      "refused": false,
+      "citations": [
+        {
+          "doc": "Code_of_Conduct.pdf p.4",
+          "quote": "Employees must protect confidential company information, supplier agreements, customer records, pricing information, and operational data. Confidential information must only be shared with authorised individuals for legitimate business purposes. Company passwords, access credentials, and restricted documents must not be disclosed to unauthorised parties. Suspected information security incidents must be reported to the IT Security Team within 24 hours of discovery."
+        }
+      ],
+      "retrieved_docs": [
+        "Code_of_Conduct.pdf",
+        "Travel_Expense_Policy.pdf"
+      ],
+      "refusal_ok": false,
+      "correct": null,
+      "grounded": null,
+      "method": "deterministic",
+      "passed": false,
+      "category": "hallucination"
+    },
+    {
+      "id": "c22",
+      "type": "out_of_scope",
+      "question": "What is the maximum amount of annual leave that a full-time employee at Mariner Shipping Ltd can receive in a calendar year?",
+      "expected_refuse": true,
+      "answer": "Eligible full-time employees receive 24 working days of paid annual leave for each completed calendar year.",
+      "refused": false,
+      "citations": [
+        {
+          "doc": "Leave_Policy.pdf p.1",
+          "quote": "2.1 Eligible full-time employees receive 24 working days of paid annual leave for each completed calendar year."
+        }
+      ],
+      "retrieved_docs": [
+        "Leave_Policy.pdf",
+        "Travel_Expense_Policy.pdf"
+      ],
+      "refusal_ok": false,
+      "correct": null,
+      "grounded": null,
+      "method": "deterministic",
+      "passed": false,
+      "category": "hallucination"
+    },
+    {
+      "id": "c23",
+      "type": "out_of_scope",
+      "question": "How many days of annual leave do part-time employees receive at Mariner Shipping Ltd, and how is it calculated for employees joining mid-year?",
+      "expected_refuse": true,
+      "answer": "",
+      "refused": true,
+      "citations": [],
+      "retrieved_docs": [
+        "Leave_Policy.pdf",
+        "Travel_Expense_Policy.pdf"
+      ],
+      "refusal_ok": true,
+      "correct": null,
+      "grounded": null,
+      "method": "deterministic",
+      "passed": true,
+      "category": null
+    },
+    {
+      "id": "c24",
+      "type": "out_of_scope",
+      "question": "What is the process for requesting emergency operational travel at Mariner Shipping Ltd, and who authorizes such requests?",
+      "expected_refuse": true,
+      "answer": "Emergency operational travel may be authorised by the Chief Operating Officer, with supporting documentation submitted within 2 working days.",
+      "refused": false,
+      "citations": [
+        {
+          "doc": "Travel_Expense_Policy.pdf p.2",
+          "quote": "2.6 Emergency operational travel may be authorised by the Chief Operating Officer, with supporting documentation submitted within 2 working days."
+        }
+      ],
+      "retrieved_docs": [
+        "Code_of_Conduct.pdf",
+        "Leave_Policy.pdf",
+        "Travel_Expense_Policy.pdf"
+      ],
+      "refusal_ok": false,
+      "correct": null,
+      "grounded": null,
+      "method": "deterministic",
+      "passed": false,
+      "category": "hallucination"
+    },
+    {
+      "id": "c25",
+      "type": "out_of_scope",
+      "question": "What is the main function of a kitchen exhaust hood in a commercial kitchen?",
+      "expected_refuse": true,
+      "answer": "",
+      "refused": true,
+      "citations": [],
+      "retrieved_docs": [
+        "Code_of_Conduct.pdf",
+        "Leave_Policy.pdf",
+        "Travel_Expense_Policy.pdf"
+      ],
+      "refusal_ok": true,
+      "correct": null,
+      "grounded": null,
+      "method": "deterministic",
+      "passed": true,
+      "category": null
+    },
+    {
+      "id": "c26",
+      "type": "out_of_scope",
+      "question": "In the context of sports, what does the term 'bench' refer to in basketball?",
+      "expected_refuse": true,
+      "answer": "",
+      "refused": true,
+      "citations": [],
+      "retrieved_docs": [
+        "Code_of_Conduct.pdf",
+        "Leave_Policy.pdf"
+      ],
+      "refusal_ok": true,
+      "correct": null,
+      "grounded": null,
+      "method": "deterministic",
+      "passed": true,
+      "category": null
+    }
+  ]
+}

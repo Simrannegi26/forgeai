@@ -2,17 +2,17 @@
   "proposed": [
     {
       "name": "csv_lookup",
-      "justification": "Search for specific HR policies such as Leave Policy, Travel and Expense Policy, and Code of Conduct in the document folder"
+      "justification": "Search for HR policy documents such as Code_of_Conduct.pdf, Leave_Policy.pdf, and Travel_Expense_Policy.pdf in the CSV catalogue in the documents folder."
     },
     {
       "name": "current_date",
-      "justification": "Determine any relevant deadlines or expiry dates for HR policies"
+      "justification": "Determine current dates and deadlines related to HR policies."
     }
   ],
   "kept": [
     {
       "name": "current_date",
-      "justification": "Determine any relevant deadlines or expiry dates for HR policies"
+      "justification": "Determine current dates and deadlines related to HR policies."
     }
   ],
   "dropped": [

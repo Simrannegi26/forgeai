@@ -1,0 +1,78 @@
+{
+  "agreement": 1.0,
+  "n": 10,
+  "negative_controls_rejected": "4/4",
+  "judge_model": "llama3.2:3b",
+  "detail": [
+    {
+      "candidate": "You get 24 days of annual leave and can carry over up to 5 days.",
+      "label": true,
+      "predicted": true,
+      "method": "deterministic",
+      "agree": true
+    },
+    {
+      "candidate": "You get 24 days of annual leave.",
+      "label": false,
+      "predicted": false,
+      "method": "llm",
+      "agree": true
+    },
+    {
+      "candidate": "Maternity leave is 26 weeks.",
+      "label": true,
+      "predicted": true,
+      "method": "deterministic",
+      "agree": true
+    },
+    {
+      "candidate": "Maternity leave is 12 weeks.",
+      "label": false,
+      "predicted": false,
+      "method": "deterministic",
+      "agree": true
+    },
+    {
+      "candidate": "A medical certificate is needed if you are absent for more than 2 days.",
+      "label": true,
+      "predicted": true,
+      "method": "deterministic",
+      "agree": true
+    },
+    {
+      "candidate": "A medical certificate is needed for any sick leave at all.",
+      "label": false,
+      "predicted": false,
+      "method": "llm",
+      "agree": true
+    },
+    {
+      "candidate": "Submit your request at least 7 days ahead through the HR portal.",
+      "label": true,
+      "predicted": true,
+      "method": "deterministic",
+      "agree": true
+    },
+    {
+      "candidate": "The unit price is $450 per piece.",
+      "label": true,
+      "predicted": true,
+      "method": "deterministic",
+      "agree": true
+    },
+    {
+      "candidate": "The unit price is $540 per piece.",
+      "label": false,
+      "predicted": false,
+      "method": "deterministic",
+      "agree": true
+    },
+    {
+      "candidate": "I'm sorry, I cannot find this in the documents.",
+      "label": false,
+      "predicted": false,
+      "method": "deterministic",
+      "agree": true
+    }
+  ]
+}

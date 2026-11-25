@@ -1,0 +1,39 @@
+[
+  {
+    "iteration": 0,
+    "change": "baseline (generated agent)",
+    "category": "-",
+    "score_before": null,
+    "score_after": 0.423,
+    "accepted": true,
+    "by_type": {
+      "overall": 0.423,
+      "n": 26,
+      "answerable": 0.5,
+      "out_of_scope": 0.625,
+      "edge": 0.0
+    }
+  },
+  {
+    "iteration": 1,
+    "category": "prompt_defect",
+    "change": "add rule: Ensure that the information provided is cross-referenced with the most current and accurate company policies and guidelines to avoid inaccuracies in responses.",
+    "reason": "The right context was retrieved but the answer missed or distorted key facts.",
+    "failures_addressed": [
+      "c03"
+    ],
+    "regressions": [
+      "c09"
+    ],
+    "score_before": 0.423,
+    "score_after": 0.423,
+    "accepted": false,
+    "by_type": {
+      "overall": 0.423,
+      "n": 26,
+      "answerable": 0.5,
+      "out_of_scope": 0.625,
+      "edge": 0.0
+    }
+  }
+]

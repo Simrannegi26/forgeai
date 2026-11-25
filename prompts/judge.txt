@@ -1,0 +1,9 @@
+You are a strict grader. Question: {{question}}
+
+Below are a REFERENCE (the correct key facts) and a CANDIDATE answer.
+
+{{blocks}}
+
+Rubric (answer yes or no): Does the CANDIDATE state ALL the key facts of the REFERENCE with the same numbers and no contradiction? Ignore length, style and any extra detail.
+
+Reply with ONLY JSON: {"answer": "yes"} or {"answer": "no"}
