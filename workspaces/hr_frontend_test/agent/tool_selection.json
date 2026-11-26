@@ -1,0 +1,23 @@
+{
+  "proposed": [
+    {
+      "name": "csv_lookup",
+      "justification": "Search for specific HR policies like annual leave, probation, carry-forward rules, travel expenses, expense claims, and code of conduct in uploaded documents."
+    },
+    {
+      "name": "current_date",
+      "justification": "Provide the current date and weekday for any relevant deadlines or expiry dates."
+    }
+  ],
+  "kept": [],
+  "dropped": [
+    {
+      "name": "csv_lookup",
+      "reason": "no CSV file in the documents"
+    },
+    {
+      "name": "current_date",
+      "reason": "brief never mentions anything that needs this tool"
+    }
+  ]
+}

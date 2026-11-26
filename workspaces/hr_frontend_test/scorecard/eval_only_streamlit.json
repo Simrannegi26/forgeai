@@ -1,0 +1,538 @@
+[
+  {
+    "id": "c01",
+    "type": "answerable",
+    "question": "What is the duration of the standard peak-season blackout period?",
+    "expected_refuse": false,
+    "answer": "The standard peak-season blackout period is 1 November to 15 December each year.",
+    "refused": false,
+    "citations": [
+      {
+        "doc": "Leave_Policy.pdf p.2",
+        "quote": "6.2 The standard peak-season blackout period is 1 November to 15 December each year."
+      }
+    ],
+    "retrieved_docs": [
+      "Leave_Policy.pdf",
+      "Travel_Expense_Policy.pdf"
+    ],
+    "refusal_ok": true,
+    "correct": true,
+    "grounded": true,
+    "method": "deterministic",
+    "passed": true,
+    "category": null
+  },
+  {
+    "id": "c02",
+    "type": "answerable",
+    "question": "What is the maximum amount for travel that requires approval from the Chief Financial Officer and Chief Operating Officer?",
+    "expected_refuse": false,
+    "answer": "The maximum amount for travel that requires approval from the Chief Financial Officer and Chief Operating Officer is USD 5,000.",
+    "refused": false,
+    "citations": [
+      {
+        "doc": "Travel_Expense_Policy.pdf p.1",
+        "quote": "2.5 Travel exceeding USD 5,000 requires approval from the Chief Financial Officer and Chief Operating Officer."
+      }
+    ],
+    "retrieved_docs": [
+      "Travel_Expense_Policy.pdf"
+    ],
+    "refusal_ok": true,
+    "correct": true,
+    "grounded": true,
+    "method": "deterministic",
+    "passed": true,
+    "category": null
+  },
+  {
+    "id": "c03",
+    "type": "answerable",
+    "question": "What is the maximum number of unused annual leave days an employee can carry forward into the following calendar year?",
+    "expected_refuse": false,
+    "answer": "The maximum number of unused annual leave days an employee can carry forward into the following calendar year is 5.",
+    "refused": false,
+    "citations": [
+      {
+        "doc": "Leave_Policy.pdf p.1",
+        "quote": "2.4 Employees may carry forward a maximum of 5 unused annual leave days into the following calendar year."
+      }
+    ],
+    "retrieved_docs": [
+      "Leave_Policy.pdf"
+    ],
+    "refusal_ok": true,
+    "correct": true,
+    "grounded": true,
+    "method": "deterministic",
+    "passed": true,
+    "category": null
+  },
+  {
+    "id": "c04",
+    "type": "answerable",
+    "question": "What is the consequence for deliberate misrepresentation of travel and expense claims?",
+    "expected_refuse": false,
+    "answer": "Deliberate misrepresentation or fraudulent claims may result in disciplinary action.",
+    "refused": false,
+    "citations": [
+      {
+        "doc": "Travel_Expense_Policy.pdf p.4",
+        "quote": "10.2 Deliberate misrepresentation or fraudulent claims may result in disciplinary action."
+      }
+    ],
+    "retrieved_docs": [
+      "Travel_Expense_Policy.pdf"
+    ],
+    "refusal_ok": true,
+    "correct": true,
+    "grounded": true,
+    "method": "deterministic",
+    "passed": true,
+    "category": null
+  },
+  {
+    "id": "c05",
+    "type": "answerable",
+    "question": "What is the maximum number of working days of sick leave eligible employees receive per calendar year?",
+    "expected_refuse": false,
+    "answer": "Eligible employees receive 10 working days of paid sick leave per calendar year.",
+    "refused": false,
+    "citations": [
+      {
+        "doc": "Leave_Policy.pdf p.2",
+        "quote": "SICK LEAVE 4.1 Eligible employees receive 10 working days of paid sick leave per calendar year."
+      }
+    ],
+    "retrieved_docs": [
+      "Leave_Policy.pdf"
+    ],
+    "refusal_ok": true,
+    "correct": true,
+    "grounded": true,
+    "method": "deterministic",
+    "passed": true,
+    "category": null
+  },
+  {
+    "id": "c06",
+    "type": "answerable",
+    "question": "What is the maximum amount for individual expenses that requires a verifiable electronic receipt?",
+    "expected_refuse": false,
+    "answer": "The maximum amount for individual expenses that requires a verifiable electronic receipt is USD 25.",
+    "refused": false,
+    "citations": [
+      {
+        "doc": "Travel_Expense_Policy.pdf p.3",
+        "quote": "7.1 Original receipts or verifiable electronic receipts are required for individual expenses exceeding USD 25."
+      },
+      {
+        "doc": "Travel_Expense_Policy.pdf p.3",
+        "quote": "RECEIPTS AND REIMBURSEMENTS 7.1 Original receipts or verifiable electronic receipts are required for individual expenses exceeding USD 25."
+      }
+    ],
+    "retrieved_docs": [
+      "Travel_Expense_Policy.pdf"
+    ],
+    "refusal_ok": true,
+    "correct": true,
+    "grounded": true,
+    "method": "deterministic",
+    "passed": true,
+    "category": null
+  },
+  {
+    "id": "c07",
+    "type": "answerable",
+    "question": "What is the approval structure for leave requests exceeding 10 consecutive working days?",
+    "expected_refuse": false,
+    "answer": "Leave requests exceeding 10 consecutive working days require approval from the Department Head and HR Manager. Exceptions involving peak-season restrictions or carry-forward limits require approval from the HR Director and, where specified, the Chief Operating Officer.",
+    "refused": false,
+    "citations": [
+      {
+        "doc": "Leave_Policy.pdf p.3",
+        "quote": "7.3 Requests of 4 to 10 consecutive working days require approval from the Department Head. 7.4 Requests exceeding 10 consecutive working days require approval from the Department Head and HR Manager. 7.5 Exceptions involving peak-season restrictions or carry-forward limits require approval from the HR Director and, where specified, the Chief Operating Officer."
+      },
+      {
+        "doc": "Leave_Policy.pdf p.3",
+        "quote": "7.4 Requests exceeding 10 consecutive working days require approval from the Department Head and HR Manager."
+      },
+      {
+        "doc": "Leave_Policy.pdf p.3",
+        "quote": "7.5 Exceptions involving peak-season restrictions or carry-forward limits require approval from the HR Director and, where specified, the Chief Operating Officer."
+      }
+    ],
+    "retrieved_docs": [
+      "Leave_Policy.pdf",
+      "Travel_Expense_Policy.pdf"
+    ],
+    "refusal_ok": true,
+    "correct": true,
+    "grounded": true,
+    "method": "deterministic",
+    "passed": true,
+    "category": null
+  },
+  {
+    "id": "c08",
+    "type": "answerable",
+    "question": "What is the maximum per-diem allowance for Tier 1 cities like London?",
+    "expected_refuse": false,
+    "answer": "The maximum per-diem allowance for Tier 1 cities like London is USD 85 per day.",
+    "refused": false,
+    "citations": [
+      {
+        "doc": "Travel_Expense_Policy.pdf p.2",
+        "quote": "4.2 Tier 1 cities, including London, New York, Singapore, and Tokyo, carry a maximum per-diem of USD 85 per day."
+      }
+    ],
+    "retrieved_docs": [
+      "Leave_Policy.pdf",
+      "Travel_Expense_Policy.pdf"
+    ],
+    "refusal_ok": true,
+    "correct": true,
+    "grounded": true,
+    "method": "deterministic",
+    "passed": true,
+    "category": null
+  },
+  {
+    "id": "c09",
+    "type": "edge",
+    "question": "What kind of leave is not restricted by the probationary annual leave limitation?",
+    "expected_refuse": false,
+    "answer": "Emergency medical leave and statutory leave are not restricted by the probationary annual leave limitation.",
+    "refused": false,
+    "citations": [
+      {
+        "doc": "Leave_Policy.pdf p.2",
+        "quote": "3.3 Emergency medical leave and statutory leave are not restricted by the probationary annual leave limitation."
+      }
+    ],
+    "retrieved_docs": [
+      "Leave_Policy.pdf"
+    ],
+    "refusal_ok": true,
+    "correct": true,
+    "grounded": true,
+    "method": "deterministic",
+    "passed": true,
+    "category": null
+  },
+  {
+    "id": "c10",
+    "type": "edge",
+    "question": "What are the rules for claiming per-diem allowances?",
+    "expected_refuse": false,
+    "answer": "Employees travelling on approved business may claim daily meal and incidental allowances according to the following destination tiers:\n- Tier 1 cities, including London, New York, Singapore, and Tokyo, carry a maximum per-diem of USD 85 per day.\n- Tier 2 cities, including Dubai, Mumbai, Rotterdam, and Hamburg, carry a maximum per-diem of USD 65 per day.\n- Tier 3 cities and other approved destinations carry a maximum per-diem of USD 45 per day. Per-diem allowances cover meals and reasonable incidental expenses. They do not cover hotel accommodation, airfare, or business entertainment. Where meals are provided by a conference, client, or hotel, the corresponding meal allowance must be reduced by 30% for each provided meal.",
+    "refused": false,
+    "citations": [
+      {
+        "doc": "Travel_Expense_Policy.pdf p.2",
+        "quote": "4.1 Employees travelling on approved business may claim daily meal and incidental allowances according to the following destination tiers."
+      },
+      {
+        "doc": "Travel_Expense_Policy.pdf p.2",
+        "quote": "4.2 Tier 1 cities, including London, New York, Singapore, and Tokyo, carry a maximum per-diem of USD 85 per day."
+      },
+      {
+        "doc": "Travel_Expense_Policy.pdf p.2",
+        "quote": "4.3 Tier 2 cities, including Dubai, Mumbai, Rotterdam, and Hamburg, carry a maximum per-diem of USD 65 per day."
+      },
+      {
+        "doc": "Travel_Expense_Policy.pdf p.2",
+        "quote": "4.4 Tier 3 cities and other approved destinations carry a maximum per-diem of USD 45 per day."
+      },
+      {
+        "doc": "Travel_Expense_Policy.pdf p.2",
+        "quote": "4.5 Per-diem allowances cover meals and reasonable incidental expenses. They do not cover hotel accommodation, airfare, or business entertainment."
+      },
+      {
+        "doc": "Travel_Expense_Policy.pdf p.2",
+        "quote": "4.6 Where meals are provided by a conference, client, or hotel, the corresponding meal allowance must be reduced by 30% for each provided meal."
+      },
+      {
+        "doc": "Travel_Expense_Policy.pdf p.2",
+        "quote": "PER-DIEM ALLOWANCES 4.1 Employees travelling on approved business may claim daily meal and incidental allowances according to the following destination tiers."
+      },
+      {
+        "doc": "Travel_Expense_Policy.pdf p.2",
+        "quote": "4.5 Per-diem allowances cover meals and reasonable incidental expenses."
+      },
+      {
+        "doc": "Travel_Expense_Policy.pdf p.2",
+        "quote": "They do not cover hotel accommodation, airfare, or business entertainment."
+      }
+    ],
+    "retrieved_docs": [
+      "Leave_Policy.pdf",
+      "Travel_Expense_Policy.pdf"
+    ],
+    "refusal_ok": true,
+    "correct": true,
+    "grounded": true,
+    "method": "deterministic",
+    "passed": true,
+    "category": null
+  },
+  {
+    "id": "c11",
+    "type": "edge",
+    "question": "What are the requirements for leave requests of 4 to 10 consecutive working days?",
+    "expected_refuse": false,
+    "answer": "Requests of 4 to 10 consecutive working days require approval from the Department Head. If the request exceeds 10 consecutive working days, approval is required from both the Department Head and the HR Manager.",
+    "refused": false,
+    "citations": [
+      {
+        "doc": "Leave_Policy.pdf p.3",
+        "quote": "7.3 Requests of 4 to 10 consecutive working days require approval from the Department Head. 7.4 Requests exceeding 10 consecutive working days require approval from the Department Head and HR Manager."
+      },
+      {
+        "doc": "Leave_Policy.pdf p.3",
+        "quote": "7.3 Requests of 4 to 10 consecutive working days require approval from the Department Head."
+      },
+      {
+        "doc": "Leave_Policy.pdf p.3",
+        "quote": "7.4 Requests exceeding 10 consecutive working days require approval from the Department Head and HR Manager."
+      }
+    ],
+    "retrieved_docs": [
+      "Leave_Policy.pdf",
+      "Travel_Expense_Policy.pdf"
+    ],
+    "refusal_ok": true,
+    "correct": true,
+    "grounded": true,
+    "method": "deterministic",
+    "passed": true,
+    "category": null
+  },
+  {
+    "id": "c12",
+    "type": "edge",
+    "question": "How does the Travel & Expense Policy handle the combination of business travel with personal leave, and what additional responsibilities do employees have in such cases?",
+    "expected_refuse": false,
+    "answer": "The Travel & Expense Policy allows employees to combine approved business travel with personal leave where operational requirements permit. The company will pay only the expenses directly attributable to the approved business portion. Additional personal accommodation, meals, transport, and travel changes must be paid by the employee. Employees must obtain written approval from their Line Manager and HR before combining business travel with personal leave. See Section 8.3 of the Leave Policy for the related leave-record requirements.",
+    "refused": false,
+    "citations": [
+      {
+        "doc": "Travel_Expense_Policy.pdf p.1",
+        "quote": "TRAVEL AND LEAVE COMBINATIONS 3.1 Employees may combine approved business travel with personal leave where operational requirements permit."
+      },
+      {
+        "doc": "Travel_Expense_Policy.pdf p.1",
+        "quote": "3.2 When business travel is combined with personal leave, the company will pay only the expenses directly attributable to the approved business portion."
+      },
+      {
+        "doc": "Travel_Expense_Policy.pdf p.1",
+        "quote": "Additional personal accommodation, meals, transport, and travel changes must be paid by the employee."
+      },
+      {
+        "doc": "Travel_Expense_Policy.pdf p.1",
+        "quote": "3.3 Employees must obtain written approval from their Line Manager and HR before combining business travel with annual leave."
+      },
+      {
+        "doc": "Travel_Expense_Policy.pdf p.1",
+        "quote": "See Section 8.3 of the Leave Policy for the related leave-record requirements."
+      }
+    ],
+    "retrieved_docs": [
+      "Leave_Policy.pdf",
+      "Travel_Expense_Policy.pdf"
+    ],
+    "refusal_ok": true,
+    "correct": true,
+    "grounded": true,
+    "method": "deterministic",
+    "passed": true,
+    "category": null
+  },
+  {
+    "id": "c13",
+    "type": "edge",
+    "question": "How does the travel expense policy allow for the combination of business travel with personal leave, and what are the requirements for such a combination?",
+    "expected_refuse": false,
+    "answer": "The travel expense policy allows for the combination of business travel with personal leave where operational requirements permit. Employees must obtain written approval from their Line Manager and HR before combining business travel with personal leave. The company will pay only the expenses directly attributable to the approved business portion. Additional personal accommodation, meals, transport, and travel changes must be paid by the employee. Employees must refer to Section 3.2 of the Travel & Expense Policy for the specific rules governing business travel combined with personal leave.",
+    "refused": false,
+    "citations": [
+      {
+        "doc": "Travel_Expense_Policy.pdf p.1",
+        "quote": "TRAVEL AND LEAVE COMBINATIONS 3.1 Employees may combine approved business travel with personal leave where operational requirements permit."
+      },
+      {
+        "doc": "Travel_Expense_Policy.pdf p.1",
+        "quote": "3.3 Employees must obtain written approval from their Line Manager and HR before combining business travel with annual leave."
+      },
+      {
+        "doc": "Travel_Expense_Policy.pdf p.1",
+        "quote": "3.2 When business travel is combined with personal leave, the company will pay only the expenses directly attributable to the approved business portion."
+      },
+      {
+        "doc": "Travel_Expense_Policy.pdf p.1",
+        "quote": "Additional personal accommodation, meals, transport, and travel changes must be paid by the employee."
+      },
+      {
+        "doc": "Leave_Policy.pdf p.3",
+        "quote": "8.3 Employees must refer to Section 3.2 of the Travel & Expense Policy for rules governing business travel combined with personal leave."
+      }
+    ],
+    "retrieved_docs": [
+      "Leave_Policy.pdf",
+      "Travel_Expense_Policy.pdf"
+    ],
+    "refusal_ok": true,
+    "correct": true,
+    "grounded": true,
+    "method": "deterministic",
+    "passed": true,
+    "category": null
+  },
+  {
+    "id": "c14",
+    "type": "out_of_scope",
+    "question": "Can I carry forward unused personal leave to the next year if I have less than 28 days of personal leave remaining in the current year?",
+    "expected_refuse": true,
+    "answer": "I can't answer that from the available documents.",
+    "refused": true,
+    "citations": [],
+    "retrieved_docs": [
+      "Leave_Policy.pdf",
+      "Travel_Expense_Policy.pdf"
+    ],
+    "refusal_ok": true,
+    "correct": null,
+    "grounded": null,
+    "method": "deterministic",
+    "passed": true,
+    "category": null
+  },
+  {
+    "id": "c15",
+    "type": "out_of_scope",
+    "question": "Can you provide information on non-work-related travel policies for shore staff?",
+    "expected_refuse": true,
+    "answer": "The provided policies do not cover non-work-related travel. The policies are specific to business travel and do not address personal or non-work-related travel.",
+    "refused": true,
+    "citations": [],
+    "retrieved_docs": [
+      "Leave_Policy.pdf",
+      "Travel_Expense_Policy.pdf"
+    ],
+    "refusal_ok": true,
+    "correct": null,
+    "grounded": null,
+    "method": "deterministic",
+    "passed": true,
+    "category": null
+  },
+  {
+    "id": "c16",
+    "type": "out_of_scope",
+    "question": "Could you provide some personal advice on how to handle a situation where a colleague is consistently taking more annual leave than the company policy allows, without causing conflict within the team?",
+    "expected_refuse": true,
+    "answer": "I am unable to provide personal advice as per the provided context. The context only outlines the company's policies and procedures regarding leave management, and does not include guidelines for handling employee behavior or conflicts within the team. I recommend referring to the company's conduct and responsibilities section in the Code of Conduct for guidance on how to address such situations professionally and ethically.",
+    "refused": true,
+    "citations": [],
+    "retrieved_docs": [
+      "Leave_Policy.pdf"
+    ],
+    "refusal_ok": true,
+    "correct": null,
+    "grounded": null,
+    "method": "deterministic",
+    "passed": true,
+    "category": null
+  },
+  {
+    "id": "c17",
+    "type": "out_of_scope",
+    "question": "What is the maximum number of consecutive days of annual leave that can be carried forward from one year to the next?",
+    "expected_refuse": true,
+    "answer": "I can't answer that from the available documents.",
+    "refused": true,
+    "citations": [],
+    "retrieved_docs": [
+      "Leave_Policy.pdf"
+    ],
+    "refusal_ok": true,
+    "correct": null,
+    "grounded": null,
+    "method": "deterministic",
+    "passed": true,
+    "category": null
+  },
+  {
+    "id": "c18",
+    "type": "out_of_scope",
+    "question": "What is the process for requesting annual leave if an employee is not a full-time member of the team?",
+    "expected_refuse": true,
+    "answer": "I can't answer that from the available documents.",
+    "refused": true,
+    "citations": [],
+    "retrieved_docs": [
+      "Leave_Policy.pdf",
+      "Travel_Expense_Policy.pdf"
+    ],
+    "refusal_ok": true,
+    "correct": null,
+    "grounded": null,
+    "method": "deterministic",
+    "passed": true,
+    "category": null
+  },
+  {
+    "id": "c19",
+    "type": "out_of_scope",
+    "question": "Does Mariner Shipping Ltd. have a specific policy for handling travel expenses for personal trips, or are they only for business purposes?",
+    "expected_refuse": true,
+    "answer": "Mariner Shipping Ltd. does not have a specific policy for handling travel expenses for personal trips. The travel expense policy applies only to expenses incurred for approved business purposes, as stated in Section 2.1 of the Travel Expense Policy document. Personal trips are not covered by this policy.",
+    "refused": true,
+    "citations": [],
+    "retrieved_docs": [
+      "Leave_Policy.pdf",
+      "Travel_Expense_Policy.pdf"
+    ],
+    "refusal_ok": true,
+    "correct": null,
+    "grounded": null,
+    "method": "deterministic",
+    "passed": true,
+    "category": null
+  },
+  {
+    "id": "c20",
+    "type": "out_of_scope",
+    "question": "What is the primary function of a code of conduct in an organization?",
+    "expected_refuse": true,
+    "answer": "[error] name 'Path' is not defined",
+    "refused": true,
+    "citations": [],
+    "retrieved_docs": [],
+    "refusal_ok": true,
+    "correct": null,
+    "grounded": null,
+    "method": "deterministic",
+    "passed": true,
+    "category": null
+  },
+  {
+    "id": "c21",
+    "type": "out_of_scope",
+    "question": "In the context of travel expenses, what does 'carry-forward' typically refer to?",
+    "expected_refuse": true,
+    "answer": "",
+    "refused": true,
+    "citations": [],
+    "retrieved_docs": [
+      "Travel_Expense_Policy.pdf"
+    ],
+    "refusal_ok": true,
+    "correct": null,
+    "grounded": null,
+    "method": "deterministic",
+    "passed": true,
+    "category": null
+  }
+]

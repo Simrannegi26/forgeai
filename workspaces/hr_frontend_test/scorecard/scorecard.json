@@ -1,0 +1,83 @@
+[
+  {
+    "iteration": 0,
+    "change": "baseline (generated agent)",
+    "category": "-",
+    "score_before": null,
+    "score_after": 0.333,
+    "accepted": true,
+    "by_type": {
+      "overall": 0.333,
+      "n": 21,
+      "answerable": 0.5,
+      "out_of_scope": 0.375,
+      "edge": 0.0
+    }
+  },
+  {
+    "iteration": 1,
+    "category": "prompt_defect",
+    "change": "add rule: Ensure the AI understands to verify the specific context and details of each question to provide accurate and contextually relevant answers.",
+    "reason": "The right context was retrieved but the answer missed or distorted key facts.",
+    "failures_addressed": [
+      "c19"
+    ],
+    "regressions": [],
+    "score_before": 0.333,
+    "score_after": 0.381,
+    "accepted": true,
+    "by_type": {
+      "overall": 0.381,
+      "n": 21,
+      "answerable": 0.5,
+      "out_of_scope": 0.5,
+      "edge": 0.0
+    }
+  },
+  {
+    "iteration": 2,
+    "category": "prompt_defect",
+    "change": "add rule: Ensure the responses cover all aspects of the question, including any potential exceptions or specific conditions that might apply, to avoid oversimplification or omission of important details.",
+    "reason": "The right context was retrieved but the answer missed or distorted key facts.",
+    "failures_addressed": [
+      "c02",
+      "c14"
+    ],
+    "regressions": [
+      "c19",
+      "c21"
+    ],
+    "score_before": 0.381,
+    "score_after": 0.381,
+    "accepted": false,
+    "by_type": {
+      "overall": 0.381,
+      "n": 21,
+      "answerable": 0.625,
+      "out_of_scope": 0.375,
+      "edge": 0.0
+    }
+  },
+  {
+    "iteration": 3,
+    "category": "hallucination",
+    "change": "add rule: Every claim in your answer must be supported by a quote copied exactly from CONTEXT. If you cannot quote supporting evidence, set refused to true.",
+    "reason": "The agent made claims not supported by the context, or answered an out-of-scope question.",
+    "failures_addressed": [
+      "c18"
+    ],
+    "regressions": [
+      "c03"
+    ],
+    "score_before": 0.381,
+    "score_after": 0.381,
+    "accepted": false,
+    "by_type": {
+      "overall": 0.381,
+      "n": 21,
+      "answerable": 0.375,
+      "out_of_scope": 0.625,
+      "edge": 0.0
+    }
+  }
+]

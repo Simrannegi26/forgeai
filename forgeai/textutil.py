@@ -1,4 +1,4 @@
-import re
+﻿import re
 
 
 def norm(s: str) -> str:
@@ -16,7 +16,8 @@ def fact_in_strict(fact: str, text: str) -> bool:
 
 
 def fact_in(fact: str, text: str) -> bool:
-    """Fuzzy: literal match, or numbers all present plus enough word overlap. Used by the judge."""
+    """Compare policy facts without requiring a leading section number."""
+    fact = re.sub(r"^\s*\d+(?:\.\d+)+\s+", "", fact)
     nf, nt = norm(fact), norm(text)
     if not nf:
         return False
@@ -28,3 +29,5 @@ def fact_in(fact: str, text: str) -> bool:
     if nums:
         return nums <= numbers(text) and cover >= 0.5
     return cover >= 0.8
+
+

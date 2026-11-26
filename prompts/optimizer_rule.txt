@@ -6,3 +6,4 @@ An AI assistant answered these test questions wrongly even though the right pass
 Write ONE short, general rule (maximum 2 sentences) to add to its system prompt that would prevent this kind of mistake. Do not mention any specific question or answer from the examples.
 
 Reply with ONLY JSON: {"rule": "..."}
+

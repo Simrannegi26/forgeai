@@ -26,7 +26,7 @@ class AgentDef(BaseModel):
 
 class Citation(BaseModel):
     doc: str
-    quote: str
+    quote: str = ""
 
 
 class AgentAnswer(BaseModel):
